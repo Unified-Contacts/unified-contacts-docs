@@ -16,6 +16,7 @@
 * [FAQ](others/faq.md)
 * [Important Links](others/important-links.md)
 * [Feedback](others/feedback.md)
+* [Privacy](others/privacy.md)
 
 ***
 
