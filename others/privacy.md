@@ -23,7 +23,7 @@ We process the data from the search queries as entered by the user in the Unifie
 * Email addresses
 * Phone numbers
 
-### &#x20;What data do we store?
+### What data do we store?
 
 We do not store any personal data, i.e. we neither store the search query nor the search results.&#x20;
 
