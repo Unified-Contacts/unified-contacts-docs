@@ -46,3 +46,12 @@ In order to prevent the processing of personal data organization-wide, the admin
 ### What type of Microsoft API permissions do we require?
 
 Unified Contacts relies on delegated permission only, which means the effective permission are limited to the permission of the logged in user in their organization.
+
+## GDPR and Schrems II
+
+### List of subcontractors&#x20;
+
+|             |                        |                                                                           |                           |
+| ----------- | ---------------------- | ------------------------------------------------------------------------- | ------------------------- |
+| **Company** | **Provided Service**   | **Contact**                                                               | **Purpose**               |
+| Microsoft   | Cloud Services (Azure) | Building 3,Carmanhall Road Sandyford, Industrial Estate 18 Dublin Ireland | Hosting for SaaS service. |
