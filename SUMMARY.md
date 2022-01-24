@@ -13,11 +13,17 @@
 
 ## OTHERS
 
+* [Change Log](others/changelog.md)
 * [FAQ](others/faq.md)
-* [Important Links](others/important-links.md)
 * [Feedback](others/feedback.md)
-* [Privacy](others/privacy.md)
+* [Important Links](others/important-links.md)
+
+## Legal
+
+* [Licensing](legal/licensing.md)
+* [Privacy](legal/privacy.md)
+* [Terms of Use](legal/terms-of-use.md)
 
 ***
 
-* [Change Log](changelog.md)
+* [Unified Contacts Website](https://unified-contacts.com)
