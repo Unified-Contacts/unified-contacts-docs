@@ -14,10 +14,10 @@ Unified Contacts is a software solution developed by glueckkanja-gab AG that sup
 
 We offer two operations models:
 
-* Software as a service (SaaS)\
+* **Software as a service (SaaS)**\
   operated by glueckkanja-gab AG
-* Azure App\
-  operated by customer
+* **Azure App**\
+  operated by the customer
 
 ### Purchase and Subscriptions&#x20;
 
@@ -29,11 +29,11 @@ The Service is provided free of charge.&#x20;
 
 The Service is billed on a subscription basis ("Subscription(s)"). With a Subscription, you will be billed in advance on a recurring and periodic basis ("Billing Cycle(s)"). Billing cycles are set on either a monthly or annual basis, depending on the type of subscription plan you select when you purchase a Subscription. If you initially install the free Community Edition and later decide to purchase a subscription to the Enterprise Edition, our licensing mechanism will automatically convert the Community Edition to the Enterprise Edition. The day of activation corresponds to the subscription start date.
 
-### Changes to the fees
+### Changes to the Fees
 
 glueckkanja-gab AG may, at its sole discretion and at any time, change the subscription fees. Any change in subscription fees will take effect at the end of the current billing period. We will provide you with reasonable notice, no later than three months prior to the effective date, of any change in Subscription Fees. You may then cancel the subscription in due time.
 
-Your continued use of the Service after the effective date of the change in subscription fees will be deemed to be your agreement to pay the revised amount of the Subscription Fees.
+Your continued use of the Service after the effective date of the change in subscription fees will be deemed to be your agreement to pay the revised amount of the subscription fees.
 
 ### Refunds
 
@@ -43,24 +43,24 @@ Unless required by law, paid subscription fees are non-refundable.
 
 After cancellation of the Service, it will be terminated at the end of the current term.
 
-Provided you no longer wish to use our app immediately, you may delete the app or app permissions in your tenant. Search queries will then no longer be possible for your users.
+Provided you no longer wish to use our Service immediately, you may delete the app from your Microsoft Teams Admin Center or revoke the app permissions in your tenant. Search queries will then no longer be possible for your users.
 
-We may terminate your tenant from our Service without notice or liability if you violate these terms. Upon termination of your subscription, your right to use the Service will terminate as of the termination date.&#x20;
+We may terminate your tenant from our Service without notice or liability if you violate these terms. Upon termination of your Subscription, your right to use the Service will terminate as of the termination date.&#x20;
 
 ### Free Trial Period
 
-glueckkanja-gab AG may, at its sole discretion, offer a subscription to the Enterprise Edition with a free trial version for a limited period of time ("Free Trial"). There is no entitlement to a free trial period.
+glueckkanja-gab AG may, at its sole discretion, offer a Subscription of the Enterprise Edition with a free and limited trial period ("Free Trial"). There is no entitlement to a free trial period.
 
 ### Limitation of Liability&#x20;
 
 In no event shall glueckkanja-gab AG, nor any of its directors, employees, partners, agents, suppliers or affiliates, be liable for any indirect, incidental, special or consequential damages, including but not limited to lost profits, data, use, goodwill or other intangible losses, resulting from
 
-1. your access to or use of, or inability to access or use, the Service;
-2. any third party conduct or content on the Service;&#x20;
-3. any Content obtained from the Service; and&#x20;
-4. unauthorized access, use or modification of your transmissions or Content, whether based on warranty, contract, tort (including negligence) or any other legal theory, whether or not we have been advised of the possibility of such damage, and even if a remedy set forth herein is found to have failed of its essential purpose.&#x20;
+1. Your access to or use of, or inability to access or use, the Service;
+2. Any third party conduct or content on the Service;&#x20;
+3. Any Content obtained from the Service; and&#x20;
+4. Unauthorized access, use or modification of your transmissions or content, whether based on warranty, contract, tort (including negligence) or any other legal theory, whether or not we have been advised of the possibility of such damage, and even if a remedy set forth herein is found to have failed of its essential purpose.&#x20;
 
-If a claim for liability nevertheless arises, such claim shall be limited to the amount of the subscription fee for the most recent billing period paid by customer.
+If a claim for liability nevertheless arises, such a claim shall be limited to the amount of the subscription fee for the most recent billing period paid by customer.
 
 ### Disclaimer
 
@@ -68,10 +68,10 @@ Use of the Service is at your own risk. The Service is provided on an "AS IS" an
 
 glueckkanja-gab AG, its subsidiaries, affiliates and its licensors do not warrant that&#x20;
 
-1. the Service will be uninterrupted, secure, or available at any particular time or location;&#x20;
-2. any errors or defects will be corrected;&#x20;
-3. the Service is free of viruses or other harmful components; or&#x20;
-4. the results of using the Service will meet your requirements.
+1. The Service will be uninterrupted, secure, or available at any particular time or location;&#x20;
+2. Any errors or defects will be corrected;&#x20;
+3. The Service is free of viruses or other harmful components; or&#x20;
+4. The results of using the Service will meet your requirements.
 
 ### Intellectual Property&#x20;
 
@@ -83,13 +83,13 @@ The Service and its original content, features and functionality are and will re
 
 We reserve the right, at our sole discretion, to modify or replace these terms at any time. By continuing to access or use our Service after these changes become effective, you agree to be bound by the revised terms. If you do not agree to the new terms, please discontinue use of the Service.
 
-#### Product features
+#### Product Features
 
-We reserve the right, at our sole discretion, to add, modify or eliminate features from the software. By continuing to access or use our Service after these changes become effective, you agree to be bound by the revised terms. If you do not agree to the new terms, please discontinue use of the Service.
+We reserve the right, at our sole discretion, to add, modify or eliminate features from the Service. By continuing to access or use our Service after these changes become effective, you agree to be bound by the revised terms. If you do not agree to the new terms, please discontinue use of the Service.
 
 ### Jurisdiction
 
-The place of jurisdiction and performance is Offenbach a. M. in Germany.&#x20;
+The place of performance and jurisdiction is Offenbach/Main in Germany.&#x20;
 
 These terms shall be governed by and construed in accordance with the laws of the Federal Republic of Germany, without regard to its conflict of law provisions.
 
@@ -109,4 +109,4 @@ The following terms apply:
 
 * [Privacy](privacy.md)
 * [Licensing](licensing.md)
-* Terms of use of the provider you chose to purchase Unified Contacts
+* Terms of use of the provider you chose to purchase Unified Contacts from
