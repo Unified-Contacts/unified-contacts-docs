@@ -26,6 +26,5 @@ The app is searching for contacts by
 
 * First name&#x20;
 * Last name
-* Company name
 
 To learn more watch this [short demo video](https://www.youtube.com/watch?v=TUyUePHcKqw).

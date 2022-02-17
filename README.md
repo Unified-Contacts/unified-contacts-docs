@@ -1,5 +1,5 @@
 ---
-description: FIND ANY CONTACTS IN TEAMS FASTER
+description: Find any contacts in Microsoft Teams faster
 ---
 
 # Welcome
