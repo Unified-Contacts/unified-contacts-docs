@@ -16,9 +16,13 @@ Microsoft Teams is a great tool for collaboration and communication. Unfortunate
 
 ## Features
 
+{% hint style="warning" %}
+Initiating PSTN calls from Unified Contacts requires Microsoft Teams Phone System.
+{% endhint %}
+
 With Unified Contacts you can search for contacts in your **personal Outlook contacts** (Exchange Online is required) and simultaneously in the corporate address book **Azure AD** in one single app. You will get one well structured and comprehensive result page where the found contacts from both sources are displayed.
 
-If your contacts contain multiple phone numbers, Unified Contacts allows easy selection of your desired phone number for dialing. In addition, you can directly initiate a **Microsoft Teams call**, start a **Microsoft Teams chat** or write a **mail** from the contact card. For internal users the **presence** **status** is displayed as well.
+If your contacts contain multiple phone numbers, Unified Contacts allows easy selection of your desired phone number for dialing (dialing requires Microsoft Teams Phone System enabled users). In addition, you can directly initiate a **Microsoft Teams call**, start a **Microsoft Teams chat** or write a **mail** from the contact card. For internal users the **presence** **status** is displayed as well.
 
 Additionally changes to Outlook Contacts will be displayed immediately by Unified Contacts.
 
