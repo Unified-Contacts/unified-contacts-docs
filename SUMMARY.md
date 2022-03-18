@@ -22,6 +22,7 @@
 
 * [Licensing](legal/licensing.md)
 * [Privacy](legal/privacy.md)
+* [Support](legal/support.md)
 * [Terms of Use](legal/terms-of-use.md)
 
 ***
