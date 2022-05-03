@@ -32,7 +32,7 @@ Please visit the official [Microsoft Office App Store](https://store.office.com)
 
 ## Which directories are supported?
 
-Currently, Unified Contacts supports the search of contacts in **Azure Active Directory** and **Exchange Online**.
+Currently, Unified Contacts supports the search of contacts in **Azure Active Directory** (Azure AD user and contact objects) and **Exchange Online**.
 
 ## Do you support Active Directory and Exchange?
 

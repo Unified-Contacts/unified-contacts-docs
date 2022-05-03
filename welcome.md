@@ -8,7 +8,7 @@ description: What does Unified Contacts do and why should I use it?
 
 Unified Contacts is a Microsoft Teams app helping you to optimize contact search in the Teams ecosystem.
 
-Microsoft Teams is a great tool for collaboration and communication. Unfortunately it's quite difficult to find contacts for various reasons. For example:
+Microsoft Teams is a great tool for collaboration and communication. Unfortunately, it's quite difficult to find contacts for various reasons. For example:
 
 * When you use the Microsoft Teams search bar to find contacts, the results are based on your corporate contacts from Azure AD.&#x20;
 * When you use the calling app in Microsoft Teams, you will only find contacts from Outlook.
@@ -30,5 +30,6 @@ The app is searching for contacts by
 
 * First name&#x20;
 * Last name
-
-To learn more watch this [short demo video](https://www.youtube.com/watch?v=TUyUePHcKqw).
+* Job title
+* Department
+* Organization name
