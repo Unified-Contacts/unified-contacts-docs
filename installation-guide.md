@@ -1,6 +1,6 @@
 # Installation Guide
 
-To install Unified Contacts search the official [Microsoft Office App Store](https://store.office.com) for **Unified Contacts**.
+To install Unified Contacts navigate to the offering in the [Microsoft Office App Store](https://appsource.microsoft.com/en-us/product/office/WA200003877).
 
 Click on "Get it now" and sign in with your M365 credentials. A preview of Unified Contacts should appear in your Teams client. Click "Add" and the app will be added to your tenant.
 
