@@ -4,7 +4,7 @@ If you would like to uninstall Unified Contacts for any reason, you can easily d
 
 Just remove the installed app in your Microsoft Teams Desktop client by doing a right click on the app icon and select **Uninstall**.
 
-![Unified Contacts - Uninstall the app in the Microsoft Teams Desktop client](<.gitbook/assets/Uninstall\_in\_TeamsDesktopClient\_Screenshot 2021-12-02 164213.png>)
+<figure><img src=".gitbook/assets/Uninstall-UC.png" alt=""><figcaption></figcaption></figure>
 
 To uninstall the app for all users, open the Microsoft Teams Admin Center and go into the app section, search for Unified Contacts, open the properties and select **Delete**.
 

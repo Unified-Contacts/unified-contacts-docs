@@ -2,6 +2,15 @@
 
 ## A short History of Unified Contacts
 
+## 1.3.0 - October 2022
+
+* Major facelift
+* Improved search speed
+* Remove disabled user accounts (AzureAD) from search results
+* Added language localization (German, French, Czech)
+* Added "copy to clipboard" buttons
+* Various bugfixes
+
 ## **1.2.0 - May 2022**
 
 * Search results now include Azure AD contact objects

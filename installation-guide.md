@@ -1,25 +1,52 @@
 # Installation Guide
 
-To install Unified Contacts navigate to the offering in the [Microsoft Office App Store](https://appsource.microsoft.com/en-us/product/office/WA200003877).
+{% hint style="info" %}
+To install Unified Contacts in your tenant for the first time, some permissions have to be granted that require the **Global Admin** or **Cloud Application Admin** role.
+{% endhint %}
 
-Click on "Get it now" and sign in with your M365 credentials. A preview of Unified Contacts should appear in your Teams client. Click "Add" and the app will be added to your tenant.
+Please follow these steps to install Unified Contacts in your tenant:
 
-To enable Unified Contacts to search for contacts in your Azure AD or your personal Exchange Online contact store, you must grant an app consent for your tenant. The following permissions are required:
+1. Navigate to the Unified Contacts offering in the [Microsoft Office App Store](https://appsource.microsoft.com/en-us/product/office/WA200003877) or locate the app under "Apps" in your Teams client.
+2. If you are going through App Source, click on "Get it now" and sign in with your M365 credentials. A preview of Unified Contacts should appear in your Teams client.
+3. Click "Add" and the app will be added to your tenant.
+4.  To enable Unified Contacts to search for contacts in your Azure AD or your Exchange Online contact store, some permissions must be granted by the user and some by an administrator. Unified Contacts will only ask your for **read permissions**. You will therefore be prompted with the following prompt:\
 
-* View your basic profile
-* Maintain access to data you have given it access to
 
-If the app consent is missing, you will see a request to grant the required permissions instead of a search result page:
+    <figure><img src=".gitbook/assets/Almost-there-Popup.png" alt=""><figcaption></figcaption></figure>
+5.  Click "Continue" and you will be presented with the user consent. Unified Contacts requires the following permissions:
 
-![Unified Contacts - Notification about missing app permissions](<.gitbook/assets/AdminConsent\_Missing\_Screenshot 2021-12-02 162552.png>)
+    * View your basic profile
+    * Maintain access to data you have given it access to
 
-In that case, please inform your Global Administrator to use the Consent link and register Unified Contacts as an Enterprise Application in your tenant.
+    \
+    **Optional**: To suppress the user consent dialogue for your users, consent on behalf of your organization.\
 
-If you are a Global Administrator, just follow the wizard and accept the permission request:
 
-![Unified Contacts- Grant required permissions](<.gitbook/assets/AdminConsent\_Grant\_Screenshot 2021-12-02 162731.png>)
+    <figure><img src=".gitbook/assets/User-Consent-Popup.png" alt=""><figcaption></figcaption></figure>
+6.  After accepting the user consent, Unified Contacts will inform you that some additional steps are required.\
 
-After you have successfully granted the permissions, refresh the app and the search box should be visible.
 
-![Unified Contacts - Working search page](<.gitbook/assets/AdminConsent\_Grant\_success2\_Screenshot 2021-12-02 162731.png>)
+    <figure><img src=".gitbook/assets/Additional-steps-required-Popup (1).png" alt=""><figcaption></figcaption></figure>
+7.  Click "Grant" to invoke the admin consent. Unified Contacts requires the following admin-granted delegated permissions:
+
+    * Maintain access to data you have given access to
+    * **Read** user and shared contacts
+    * Sign in and **read** user profile
+    * **Read** all users' full profiles
+    * **Read** directory data
+    * **Read** presence information of all users in your organization
+
+
+
+    <figure><img src=".gitbook/assets/Admin-consent-Popup.png" alt=""><figcaption></figcaption></figure>
+8.  Unified Contacts is ready to be used.\
+
+
+    <figure><img src=".gitbook/assets/StartScreen (1).png" alt=""><figcaption><p><br></p></figcaption></figure>
+
+{% hint style="warning" %}
+After the admin consent is granted, it may initially take up to 60 seconds until the permissions are propagated and the search can be used.
+{% endhint %}
+
+
 

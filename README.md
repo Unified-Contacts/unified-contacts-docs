@@ -18,5 +18,4 @@ This will help you to
 * Deploy the product
 * Get insights on how Unified Contacts works
 
-![](.gitbook/assets/screenshot\_1366x768.png)
-
+<figure><img src=".gitbook/assets/StartScreen.png" alt=""><figcaption></figcaption></figure>
