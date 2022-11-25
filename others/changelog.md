@@ -2,6 +2,14 @@
 
 ## A short History of Unified Contacts
 
+## November 2022
+
+### 1.3.0-b.2
+
+* Added multitenant/tenant switching support for cached results
+* Fix dark theme loading delayed (flashing white image)
+* Various bug fixes
+
 ## October 2022
 
 ### 1.3.0-b.1
