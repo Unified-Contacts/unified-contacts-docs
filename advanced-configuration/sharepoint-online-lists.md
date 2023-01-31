@@ -1,5 +1,9 @@
 # SharePoint Online Lists
 
+{% hint style="info" %}
+Unified Contacts Pro only.
+{% endhint %}
+
 Unified Contacts Pro can search for contacts in **SharePoint Online lists**. You can use a contact list in SharePoint Online in different fashions:
 
 * As bridge technology to export your customer contact data from any third party database and import it to SharePoint Online
@@ -12,7 +16,7 @@ This article describes how to create a new SharePoint Online list and assign the
 ### Create an empty SharePoint Online List
 
 * Open the **SharePoint Online** site where you would like to store the contacts
-* Create a new list by clicking "Settings" --> "Add an app"
+* Create a new list by clicking "Settings" -> "Add an app"
 *   Open the classic view by clicking "classic experience"\
 
 
