@@ -1,6 +1,10 @@
 # Important Links
 
-[Unified Contacts Homepage](https://www.glueckkanja-gab.com/en/products/unified-contacts)
+## Unified Contacts Pro on Azure Marketplace
 
-[Microsoft Office App Store](https://store.office.com/)
+[https://azuremarketplace.microsoft.com/en-us/marketplace/apps/glueckkanja-gabag.unified-contacts-transactable-prod?tab=Overview](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/glueckkanja-gabag.unified-contacts-transactable-prod-preview?tab=Overview)
+
+## Unified Contacts Free on AppSource
+
+[https://appsource.microsoft.com/en-us/product/office/WA200003877](https://appsource.microsoft.com/en-us/product/office/WA200003877)
 

@@ -14,20 +14,20 @@ Unified Contacts is a software solution developed by glueckkanja-gab AG that sup
 
 We offer two operations models:
 
-* **Software as a service (SaaS)**\
+* **Unified Contacts Free / Software as a service (SaaS)**\
   operated by glueckkanja-gab AG
-* **Azure App**\
+* **Unified Contacts Pro / Azure App**\
   operated by the customer
 
 ### Purchase and Subscriptions&#x20;
 
-#### Unified Contacts Community Edition&#x20;
+#### Unified Contacts Free&#x20;
 
 The Service is provided free of charge.&#x20;
 
-#### Unified Contacts Enterprise Edition
+#### Unified Contacts Pro
 
-The Service is billed on a subscription basis ("Subscription(s)"). With a Subscription, you will be billed in advance on a recurring and periodic basis ("Billing Cycle(s)"). Billing cycles are set on either a monthly or annual basis, depending on the type of subscription plan you select when you purchase a Subscription. If you initially install the free Community Edition and later decide to purchase a subscription to the Enterprise Edition, our licensing mechanism will automatically convert the Community Edition to the Enterprise Edition. The day of activation corresponds to the subscription start date.
+The Service is billed on a subscription basis ("Subscription(s)"). With a Subscription, you will be billed in advance on a recurring and periodic basis ("Billing Cycle(s)"). Billing cycles are set on either a monthly or annual basis, depending on the type of subscription plan you select when you purchase a Subscription. Unified Contacts Free cannot be converted into a paid license of Unified Contacts Pro. The day of activation corresponds to the subscription start date.
 
 ### Changes to the Fees
 
@@ -49,7 +49,7 @@ We may terminate your tenant from our Service without notice or liability if you
 
 ### Free Trial Period
 
-glueckkanja-gab AG may, at its sole discretion, offer a Subscription of the Enterprise Edition with a free and limited trial period ("Free Trial"). There is no entitlement to a free trial period.
+glueckkanja-gab AG may, at its sole discretion, offer a Subscription of the Unified Contacts Pro with a free and limited trial period ("Free Trial"). There is no entitlement to a free trial period.
 
 ### Limitation of Liability&#x20;
 
@@ -108,5 +108,5 @@ We strongly encourage you to read the terms and conditions and privacy policies 
 The following terms apply:
 
 * [Privacy](privacy.md)
-* [Licensing](licensing.md)
+* [Licensing](licensing/)
 * Terms of use of the provider you chose to purchase Unified Contacts from

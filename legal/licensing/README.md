@@ -12,7 +12,7 @@ The subscription of a "user" is required for each user, who or whose device is e
 In many cases the required number of Unified Contacts users equals the amount of Microsoft Teams subscriptions you have in your tenant.
 {% endhint %}
 
-The minimum amount of users that can be subscribed for one organization is 50.
+The minimum amount of users that can be subscribed for one organization is 100.
 
 A user subscription is bound to a single user for at least one calendar month and cannot be shared with other users.
 

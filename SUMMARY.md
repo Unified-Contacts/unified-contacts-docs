@@ -4,23 +4,34 @@
 * [Details](welcome.md)
 * [Editions](editions.md)
 
-## GETTING STARTED
+## UNIFIED CONTACTS DEPLOYMENT <a href="#deployment" id="deployment"></a>
 
-***
+* [Getting Started](deployment/getting-started/README.md)
+  * [Unified Contacts Pro](deployment/getting-started/unified-contacts-pro.md)
+  * [Unified Contacts Free](deployment/getting-started/installation-guide.md)
+* [Deinstallation](deployment/deinstallation/README.md)
+  * [Unified Contacts Pro](deployment/deinstallation/unified-contacts-pro.md)
+  * [Unified Contacts Free](deployment/deinstallation/unified-contacts-free.md)
+* [Deployment](deployment/deployment.md)
 
-* [Installation Guide](installation-guide.md)
-* [Uninstallation Guide](uninstallation-guide.md)
+## Advanced Configuration
+
+* [Custom Domain](advanced-configuration/custom-domain.md)
+* [Logs & Telemetry](advanced-configuration/logs-and-telemetry.md)
+* [SharePoint Online Lists](advanced-configuration/sharepoint-online-lists.md)
+* [Update Strategy](advanced-configuration/update-strategy.md)
 
 ## OTHERS
 
+* [FAQs](others/faq.md)
 * [Change Log](others/changelog.md)
-* [FAQ](others/faq.md)
 * [Feedback](others/feedback.md)
 * [Important Links](others/important-links.md)
 
 ## Legal
 
-* [Licensing](legal/licensing.md)
+* [Licensing](legal/licensing/README.md)
+  * [Azure Marketplace](legal/licensing/azure-marketplace.md)
 * [Privacy](legal/privacy.md)
 * [Support](legal/support.md)
 * [Terms of Use](legal/terms-of-use.md)

@@ -39,7 +39,7 @@ We do not use the search queries and search results for marketing or any other a
 
 ### How can I withdraw my consent to process personal data?
 
-Every user of the Unified Contacts App has the choice to uninstall the app from their Microsoft Teams client as described here [uninstallation-guide.md](../uninstallation-guide.md "mention"). Once the app is uninstalled, no further search queries are processed for this specific user.
+Every user of the Unified Contacts App has the choice to uninstall the app from their Microsoft Teams client as described here [unified-contacts-free.md](../deployment/deinstallation/unified-contacts-free.md "mention"). Once the app is uninstalled, no further search queries are processed for this specific user.
 
 In order to prevent the processing of personal data organization-wide, the administrator responsible for Microsoft Teams, has to remove the Unified Contacts app from the **Microsoft Teams Admin Center**.
 

@@ -1,6 +1,19 @@
 # Change Log
 
-## A short History of Unified Contacts
+## A short history of Unified Contacts
+
+## January 2023
+
+### 1.4.0
+
+#### Pro Version
+
+* Initial public release
+
+#### Free Version
+
+* Added minimal tile
+* Various bug fixes
 
 ## November 2022
 
