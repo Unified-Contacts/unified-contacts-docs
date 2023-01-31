@@ -4,7 +4,7 @@
 
 Log in with an AAD administrator account, visit this site and click the following deployment link:
 
-* [Production channel](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Funifiedcontacts.blob.core.windows.net%2Farm-templates%2FarmDeployment.json) (do not use yet)
+* [Production channel](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Funifiedcontacts.blob.core.windows.net%2Farm-templates%2FarmDeployment.json)
 
 This will invoke the ARM-deployment-template that is pre-populated with default values. In the default configuration, partly-random resource names will be generated based on the **Resource group** ID.
 

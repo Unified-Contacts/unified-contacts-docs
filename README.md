@@ -6,10 +6,6 @@ description: >-
 
 # Welcome
 
-{% hint style="success" %}
-Unified Contacts Pro is coming soon... Stay tuned!
-{% endhint %}
-
 {% hint style="info" %}
 We appreciate any feedback on our service and documentation to improve it.
 {% endhint %}
