@@ -97,7 +97,19 @@ To properly link all components of Unified Contacts Pro, several permissions nee
 It may initially take up to **5 minutes** until the Unified Contacts backend portal is loaded.
 {% endhint %}
 
-### Step 4: Add Unified Contacts Pro to your Organization's App Store
+### Step 4: Configure Access to the Unified Contacts Backend
+
+{% hint style="info" %}
+This is an **optional** step.
+{% endhint %}
+
+By default, any account from the tenant can access the Unified Contacts Backend. To configure access for certain accounts only, please refer to below article.
+
+{% content-ref url="../../advanced-configuration/backend-permissions.md" %}
+[backend-permissions.md](../../advanced-configuration/backend-permissions.md)
+{% endcontent-ref %}
+
+### Step 5: Add Unified Contacts Pro to your Organization's App Store
 
 {% hint style="warning" %}
 This is a **mandatory** step.
@@ -107,14 +119,14 @@ This is a **mandatory** step.
 2.  In case you have never deployed Unified Contacts Pro before, the website will inform you that you first need to upload the Unified Contacts Manifest. This will make the Unified Contacts Pro Teams App available in your organization's AppStore.\
 
 
-    <figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 3. Acknowledge the dialogue, navigate to the "Teams Manifest" tab, adapt the manifest to your preferences, click "Save" and then "Upload". If you have configured a **custom domain**, remeber to **override** the "Api Domain" in the manifest. **Uploading the manifest** **might take a few moments**. Please note: You can even change the display name of the app that will appear under the icon in the end-users' Teams client.
 4.  The Unified Contacts Pro Teams app is now available in [**Teams Admin Center**](https://admin.teams.microsoft.com/) and you may distribute it as per your requirements.\
 
 
-    <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
 
-## Step 5: Create a SharePoint List as Contact Source
+## Step 6: Create a SharePoint List as Contact Source
 
 {% hint style="info" %}
 This is an **optional** step.

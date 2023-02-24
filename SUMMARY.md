@@ -16,6 +16,7 @@
 
 ## Advanced Configuration
 
+* [Backend Permissions](advanced-configuration/backend-permissions.md)
 * [Custom Domain](advanced-configuration/custom-domain.md)
 * [Logs & Telemetry](advanced-configuration/logs-and-telemetry.md)
 * [SharePoint Online Lists](advanced-configuration/sharepoint-online-lists.md)

@@ -68,7 +68,7 @@ The **App Registrations** that were created during the [post-deployment](../depl
   *   Under the "Redirect URLs", add your custom domain and click "Save"\
 
 
-      <figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+      <figure><img src="../.gitbook/assets/image (24) (1).png" alt=""><figcaption></figcaption></figure>
   *   Next, navigate to "Manage" --> "Expose API" and update the "Application ID URI" with your custom domain.\
 
 
