@@ -39,7 +39,7 @@ The **Server Name** value must only contain numbers and/or lowercase letters and
 * **Sql DB Name**: Keep the default value or define a custom value
 * **Administrator Login**: Define a username as part of an administrative access account for the SQL database
 * **Administrator Login Password**: Define a password for the administrative access account for the SQL database. Store this password in your password vault.
-* **Sharepoint Url**: Link to your organizations root Sharepoint Online site. Typically: `<yourdomain>.sharepoint.com`
+* **Sharepoint Url**: Domain of your organizations root Sharepoint Online site **without** 'https://'. Typically: `<yourdomain>.sharepoint.com`
 * **App Service Plan Name**: Keep the default value or define a custom but globally unique value
 * **App Service Name**: Keep the default value or define a custom but globally unique value
 * **App Registration Name Admin Page**: Keep the default value or define a custom value
