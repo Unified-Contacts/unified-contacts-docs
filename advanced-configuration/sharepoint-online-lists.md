@@ -11,6 +11,10 @@ Unified Contacts Pro can search for contacts in **SharePoint Online lists**. You
 
 To optimize the search in SharePoint Online, Unified Contacts Pro searches for a dedicated SharePoint **content type** - contacts. Therefor your contacts needs to be stored in a SharePoint Online list where the content type "contacts" is assigned to.
 
+{% hint style="warning" %}
+Users will only be able to search a SharePoint Online list if they have (read-) permissions to access the list **and** the site under which it is stored.
+{% endhint %}
+
 This article describes how to create a new SharePoint Online list and assign the correct content type.
 
 ### Create an empty SharePoint Online List
