@@ -2,6 +2,37 @@
 
 ## A short history of Unified Contacts
 
+## May 2023
+
+<details>
+
+<summary>1.4.2</summary>
+
+#### \[NEW]
+
+* add search result cache timeout
+* add search result sorting functionality by display name
+
+#### \[CHANGE]
+
+* update UI of search result toolbar on desktop and mobile
+
+#### \[BUG]
+
+* fix bug that caused the loading spinner only be deactivated after 2 seconds - even though all search results were already loaded in the background.
+
+#### \[MISC]
+
+* add trimming of all string properties of search results, resulting in more consistent sorting.
+
+#### \[INTERNAL]
+
+* update teams manifest to version 1.12
+
+
+
+</details>
+
 ## March 2023
 
 <details>
@@ -102,4 +133,3 @@
 
 </details>
 
-****
