@@ -6,6 +6,36 @@
 
 <details>
 
+<summary>1.4.3</summary>
+
+#### \[NEW]
+
+/
+
+#### \[CHANGE]
+
+/
+
+#### \[BUG]
+
+* fix issue where loading spinner might not disappear if no results have been found
+
+#### \[MISC]
+
+/
+
+#### \[INTERNAL]
+
+/
+
+
+
+</details>
+
+
+
+<details>
+
 <summary>1.4.2</summary>
 
 #### \[NEW]
