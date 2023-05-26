@@ -12,7 +12,7 @@ If you add an **Azure AD Group**, only direct members of the group will receive 
     <figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 3.  Under **Properties** enable the setting "Assignement required?" and click "Save"
 
-    <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 4.  You can now add users and groups that shall receive access to the Unified Contacts Backend via the "Users and groups" section
 
     <figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>

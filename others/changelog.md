@@ -6,6 +6,32 @@
 
 <details>
 
+<summary>1.4.4</summary>
+
+#### \[NEW]&#x20;
+
+/&#x20;
+
+#### \[CHANGE]&#x20;
+
+/&#x20;
+
+#### \[BUG]&#x20;
+
+* fix issue where adding contact to favorites were not possible from the large tile&#x20;
+
+#### \[MISC]&#x20;
+
+/&#x20;
+
+#### \[INTERNAL]&#x20;
+
+/
+
+</details>
+
+<details>
+
 <summary>1.4.3</summary>
 
 #### \[NEW]
@@ -31,8 +57,6 @@
 
 
 </details>
-
-
 
 <details>
 

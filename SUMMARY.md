@@ -18,6 +18,7 @@
 
 * [Backend Permissions](advanced-configuration/backend-permissions.md)
 * [Custom Domain](advanced-configuration/custom-domain.md)
+* [License Key](advanced-configuration/license-key.md)
 * [Logs & Telemetry](advanced-configuration/logs-and-telemetry.md)
 * [SharePoint Online Lists](advanced-configuration/sharepoint-online-lists.md)
 * [Update Strategy](advanced-configuration/update-strategy.md)

@@ -36,20 +36,15 @@ The annual plan is discounted by 10% in comparison to the monthly plan (calculat
 
 The following user segments are available for both, monthly and annual plans.&#x20;
 
-| **User Segment**                 | **Included Users in Base Fee** | **Maximum Total Users** |
-| -------------------------------- | ------------------------------ | ----------------------- |
-| Unified Contacts Pro (M/Y) 100   | 100                            | 999                     |
-| Unified Contacts Pro (M/Y) 1000  | 1,000                          | 4,999                   |
-| Unified Contacts Pro (M/Y) 5000  | 5,000                          | 9,999                   |
-| Unified Contacts Pro (M/Y) 10000 | 10,000                         | unlimited               |
+<table data-header-hidden><thead><tr><th width="304.4424094315601">Plan</th><th width="244.07580174927114">Included Users</th><th></th></tr></thead><tbody><tr><td><strong>User Segment</strong></td><td><strong>Included Users in Base Fee</strong></td><td><strong>Maximum Total Users</strong></td></tr><tr><td>Unified Contacts Pro (M/Y) 100</td><td>100</td><td>999</td></tr><tr><td>Unified Contacts Pro (M/Y) 1000</td><td>1,000</td><td>4,999</td></tr><tr><td>Unified Contacts Pro (M/Y) 5000</td><td>5,000</td><td>9,999</td></tr><tr><td>Unified Contacts Pro (M/Y) 10000</td><td>10,000</td><td>unlimited</td></tr></tbody></table>
 
-For prices in Euro (EUR), please check out our <mark style="color:green;"></mark> [website](https://www.unified-contacts.com/pricing). For prices in _your_ currency, please directly refer to the **Marketplace** in the [Azure Portal](https://portal.azure.com/).
+For prices in Euro (EUR), please check out our [website](https://www.unified-contacts.com/pricing). For prices in _your_ currency, please directly refer to the **Marketplace** in the [Azure Portal](https://portal.azure.com/).
 
 ## User Up- and Downgrades
 
 ### Upgrades
 
-* If you would like to upgrade your user count, you can do that any time during the current subscription cycle by navigating to your **Unified Contacts subscription** in the [Azure SaaS portal](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.SaaS%2Fresources) <mark style="color:green;"></mark> and by clicking "Open SaaS Account on publisher's site" (see screenshot below). This will re-direct you to our platform where the amount of users can be upgraded.
+* If you would like to upgrade your user count, you can do that any time during the current subscription cycle by navigating to your **Unified Contacts subscription** in the [Azure SaaS portal](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.SaaS%2Fresources) and by clicking "Open SaaS Account on publisher's site" (see screenshot below). This will re-direct you to our platform where the amount of users can be upgraded.
 
 
 
@@ -60,7 +55,7 @@ For prices in Euro (EUR), please check out our <mark style="color:green;"></mark
 ### Downgrades
 
 * Downgrading the amount of users is currently not possible without cancelling the subscription.
-* If you want to perform a downgrade, please cancel your current subscription from the <mark style="color:green;"></mark> [Azure SaaS portal](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.SaaS%2Fresources) towards the end of the current cycle by clicking "Cancel subscription" (see screenshot below) and re-subscribe with the desired user amount once the cancellation becomes effective.
+* If you want to perform a downgrade, please cancel your current subscription from the [Azure SaaS portal](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.SaaS%2Fresources) towards the end of the current cycle by clicking "Cancel subscription" (see screenshot below) and re-subscribe with the desired user amount once the cancellation becomes effective.
 
 ## **Trials**
 
@@ -77,7 +72,7 @@ To get started with your Unified Contacts Pro subscription,
 
 * Create or select the **Resource group** you would like to deploy the subscription to
 * Assign a **Name** to later identify your Unified Contacts subscription
-* We recommend to keep **Recurring billing** on **** so that you do not have to worry about a manual renewal of your subscription.
+* We recommend to keep **Recurring billing** on so that you do not have to worry about a manual renewal of your subscription.
 * Click "Review + subscribe" and in the next blade "Subscribe" to deploy the subscription to your Azure SaaS portal.
 
 <figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>

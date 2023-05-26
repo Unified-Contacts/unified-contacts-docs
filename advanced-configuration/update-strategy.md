@@ -4,7 +4,7 @@
 Unified Contacts Pro only.
 {% endhint %}
 
-Updating Unified Contacts is very easy. The backend regularly checks whether a new version of Unified Contacts is available from our different release channels. If that is the case, the backend portal will display a notification next to the "Version" **** information.
+Updating Unified Contacts is very easy. The backend regularly checks whether a new version of Unified Contacts is available from our different release channels. If that is the case, the backend portal will display a notification next to the "Version" information.
 
 ## Update Procedure
 
@@ -15,7 +15,7 @@ To update Unified Contacts:
 * In the upcoming pop-up, confirm your choice to start the update.
 *   It will take a few moments until the latest binaries are pulled from our server and deployed into the App Service. Once this is completed, a pop-up is displayed asking you to restart the App Service. Click on the link, navigate to the Unified Contacts App Service and click "Stop" und subsequently "Start."
 
-    <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 * Navigate back to the backend portal by clicking "Browse".
 
 {% hint style="warning" %}
