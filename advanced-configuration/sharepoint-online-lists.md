@@ -38,13 +38,13 @@ Therefore, add the **Contact** content type and remove the default content type 
 *   Open list settings by clicking "Settings" --> "List settings"\
 
 
-    <figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 * Open "Advanced settings"
 * Enable "Allow management of content types" and save the changes by clicking "OK" at bottom of the page.
 * SharePoint opens the settings page and you will see the section "Content Types"
 *   Click "Add from existing site content types"\
 
 
-    <figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
 * Add "Contact" and save the changes by clicking "OK"
 * Click on "Default content type" and delete it

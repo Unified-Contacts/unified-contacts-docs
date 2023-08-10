@@ -15,7 +15,7 @@ To update Unified Contacts:
 * In the upcoming pop-up, confirm your choice to start the update.
 *   It will take a few moments until the latest binaries are pulled from our server and deployed into the App Service. Once this is completed, a pop-up is displayed asking you to restart the App Service. Click on the link, navigate to the Unified Contacts App Service and click "Stop" und subsequently "Start."
 
-    <figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 * Navigate back to the backend portal by clicking "Browse".
 
 {% hint style="warning" %}
@@ -31,7 +31,7 @@ Due to Microsoft's caching policies, it may take up to **48 hours**, until the l
 {% endhint %}
 
 * You can review if the latest version of the manifest was populated by checking the version number in the "About" tab:\
-  ![](<../.gitbook/assets/image (33).png>)
+  ![](<../.gitbook/assets/image (33) (1).png>)
 
 ## Release Channels
 

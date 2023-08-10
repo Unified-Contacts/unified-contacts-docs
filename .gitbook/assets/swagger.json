@@ -1,0 +1,2240 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Unified Contacts",
+    "version": "1.0"
+  },
+  "paths": {
+    "/v1.3.0/api/Admin/dependencies/status": {
+      "get": {
+        "tags": [
+          "Admin"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetDependenciesStatusResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetDependenciesStatusResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetDependenciesStatusResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1.3.0/api/Admin/manifest": {
+      "get": {
+        "tags": [
+          "Admin"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetManifestInfoResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetManifestInfoResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetManifestInfoResponse"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Admin"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v1.3.0/api/Admin/manifest/settings": {
+      "get": {
+        "tags": [
+          "Admin"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetManifestSettingsResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetManifestSettingsResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetManifestSettingsResponse"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Admin"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SetManifestSettingsPayload"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SetManifestSettingsPayload"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SetManifestSettingsPayload"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v1.3.0/api/Admin/version/update": {
+      "get": {
+        "tags": [
+          "Admin"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetVersionUpdateInfoResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetVersionUpdateInfoResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetVersionUpdateInfoResponse"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Admin"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v1.3.0/api/Admin/version/update/progress": {
+      "get": {
+        "tags": [
+          "Admin"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetIsUpdateInProgressResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetIsUpdateInProgressResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetIsUpdateInProgressResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1.3.0/api/Admin/version/update/settings": {
+      "put": {
+        "tags": [
+          "Admin"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SetVersionUpdateSettingsPayload"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SetVersionUpdateSettingsPayload"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SetVersionUpdateSettingsPayload"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v1.3.0/api/Admin/settings/{categoryId}/{settingId}": {
+      "get": {
+        "tags": [
+          "Admin"
+        ],
+        "parameters": [
+          {
+            "name": "categoryId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "settingId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetSettingValueResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetSettingValueResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetSettingValueResponse"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Admin"
+        ],
+        "parameters": [
+          {
+            "name": "categoryId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "settingId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SetSettingValuePayload"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SetSettingValuePayload"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SetSettingValuePayload"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/contacts/{contactId}": {
+      "get": {
+        "tags": [
+          "ContactManagement"
+        ],
+        "summary": "Gets a contact with all meta data that is stored in the database",
+        "parameters": [
+          {
+            "name": "contactId",
+            "in": "path",
+            "description": "Id of the contact",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Contact successfully found and returned",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomContactResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomContactResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomContactResponse"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Contact with id not found"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "ContactManagement"
+        ],
+        "summary": "Overwrites the meta information of an existing contact",
+        "parameters": [
+          {
+            "name": "contactId",
+            "in": "path",
+            "description": "Id of the contact",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "description": "Request body",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateCustomContactPayload"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateCustomContactPayload"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateCustomContactPayload"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Contact was successfully updated - full contact info is returned",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomContactResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomContactResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomContactResponse"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Contact with id not found"
+          }
+        }
+      },
+      "patch": {
+        "tags": [
+          "ContactManagement"
+        ],
+        "summary": "Updates provided meta information of an existing contact",
+        "parameters": [
+          {
+            "name": "contactId",
+            "in": "path",
+            "description": "Id of the contact",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "description": "Request body",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateCustomContactPayload"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateCustomContactPayload"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateCustomContactPayload"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Contact was successfully updated - full contact info is returned",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomContactResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomContactResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomContactResponse"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Contact with id not found"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "ContactManagement"
+        ],
+        "summary": "Deletes an existing contact",
+        "parameters": [
+          {
+            "name": "contactId",
+            "in": "path",
+            "description": "Id of the contact",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "204": {
+            "description": "Contact was successfully deleted"
+          },
+          "404": {
+            "description": "Contact with id not found"
+          }
+        }
+      }
+    },
+    "/api/v1/contacts/{contactId}": {
+      "get": {
+        "tags": [
+          "ContactManagement"
+        ],
+        "summary": "Gets a contact with all meta data that is stored in the database",
+        "parameters": [
+          {
+            "name": "contactId",
+            "in": "path",
+            "description": "Id of the contact",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Contact successfully found and returned",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomContactResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomContactResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomContactResponse"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Contact with id not found"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "ContactManagement"
+        ],
+        "summary": "Overwrites the meta information of an existing contact",
+        "parameters": [
+          {
+            "name": "contactId",
+            "in": "path",
+            "description": "Id of the contact",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "description": "Request body",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateCustomContactPayload"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateCustomContactPayload"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateCustomContactPayload"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Contact was successfully updated - full contact info is returned",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomContactResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomContactResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomContactResponse"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Contact with id not found"
+          }
+        }
+      },
+      "patch": {
+        "tags": [
+          "ContactManagement"
+        ],
+        "summary": "Updates provided meta information of an existing contact",
+        "parameters": [
+          {
+            "name": "contactId",
+            "in": "path",
+            "description": "Id of the contact",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "description": "Request body",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateCustomContactPayload"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateCustomContactPayload"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateCustomContactPayload"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Contact was successfully updated - full contact info is returned",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomContactResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomContactResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomContactResponse"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Contact with id not found"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "ContactManagement"
+        ],
+        "summary": "Deletes an existing contact",
+        "parameters": [
+          {
+            "name": "contactId",
+            "in": "path",
+            "description": "Id of the contact",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "204": {
+            "description": "Contact was successfully deleted"
+          },
+          "404": {
+            "description": "Contact with id not found"
+          }
+        }
+      }
+    },
+    "/api/contacts": {
+      "post": {
+        "tags": [
+          "ContactManagement"
+        ],
+        "summary": "Creates a new contact",
+        "requestBody": {
+          "description": "Request body",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateCustomContactPayload"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateCustomContactPayload"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateCustomContactPayload"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomContactResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomContactResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomContactResponse"
+                }
+              }
+            }
+          },
+          "201": {
+            "description": "Contact was successfully created"
+          },
+          "409": {
+            "description": "Contact with id already exists"
+          }
+        }
+      }
+    },
+    "/api/v1/contacts": {
+      "post": {
+        "tags": [
+          "ContactManagement"
+        ],
+        "summary": "Creates a new contact",
+        "requestBody": {
+          "description": "Request body",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateCustomContactPayload"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateCustomContactPayload"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateCustomContactPayload"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomContactResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomContactResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomContactResponse"
+                }
+              }
+            }
+          },
+          "201": {
+            "description": "Contact was successfully created"
+          },
+          "409": {
+            "description": "Contact with id already exists"
+          }
+        }
+      }
+    },
+    "/v1.3.0/api/contacts/photos": {
+      "post": {
+        "tags": [
+          "Contacts"
+        ],
+        "summary": "This endpoint return images for up to 20 contacts.",
+        "requestBody": {
+          "description": "Request body. See Schema for details.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetBatchContactImagesPayload"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetBatchContactImagesPayload"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetBatchContactImagesPayload"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Photos of contacts",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UnifiedContactsImageResponse"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UnifiedContactsImageResponse"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UnifiedContactsImageResponse"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "At least one contactId is of invalid format"
+          }
+        }
+      }
+    },
+    "/v1.3.0/api/contacts/presence": {
+      "post": {
+        "tags": [
+          "Contacts"
+        ],
+        "summary": "This endpoint returns the presence status for up to 650 contacts",
+        "requestBody": {
+          "description": "Request body. See Schema for details.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetBatchPresencePayload"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetBatchPresencePayload"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetBatchPresencePayload"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Presence of contacts",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UnifiedContactsPresenceResponse"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UnifiedContactsPresenceResponse"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UnifiedContactsPresenceResponse"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "At least one contactId is of invalid format"
+          }
+        }
+      }
+    },
+    "/v1.3.0/api/favorites/tenants/{tenantId}/contacts": {
+      "get": {
+        "tags": [
+          "Favorites"
+        ],
+        "parameters": [
+          {
+            "name": "tenantId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/UnifiedContactsSearchResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UnifiedContactsSearchResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UnifiedContactsSearchResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1.3.0/api/favorites/tenants/{tenantId}/contacts/{contactId}": {
+      "put": {
+        "tags": [
+          "Favorites"
+        ],
+        "parameters": [
+          {
+            "name": "tenantId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          },
+          {
+            "name": "contactId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Favorites"
+        ],
+        "parameters": [
+          {
+            "name": "tenantId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          },
+          {
+            "name": "contactId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v1.3.0/api/general/connection": {
+      "get": {
+        "tags": [
+          "General"
+        ],
+        "summary": "This endpoint is used to check the connection authentication. It also returns information about which permissions are admin granted in the tenant and which permissions may missing, which may cause 403 on some search endpoints",
+        "responses": {
+          "200": {
+            "description": "Connection info including granted permission info",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/CheckConnectionResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CheckConnectionResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CheckConnectionResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1.3.0/api/general/license": {
+      "get": {
+        "tags": [
+          "General"
+        ],
+        "summary": "This endpoint is used to check the licensing;",
+        "responses": {
+          "200": {
+            "description": "License info including granted permission info",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/CheckLicensingResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CheckLicensingResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CheckLicensingResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1.3.0/api/general/version": {
+      "get": {
+        "tags": [
+          "General"
+        ],
+        "summary": "This endpoint returns the current version of the UnifiedContacts environment",
+        "responses": {
+          "200": {
+            "description": "Version of the current UnfiedContacts environment",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetVersionResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetVersionResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetVersionResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1.3.0/api/general/adminpage/appreginfo": {
+      "get": {
+        "tags": [
+          "General"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetAdminAppRegInfoResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetAdminAppRegInfoResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetAdminAppRegInfoResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1.3.0/api/search/{source}": {
+      "get": {
+        "tags": [
+          "Search"
+        ],
+        "summary": "This endpoint searches against a specified source",
+        "parameters": [
+          {
+            "name": "search",
+            "in": "query",
+            "description": "Search string to be searched by",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "source",
+            "in": "path",
+            "description": "Source in which the search should be executed",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "tenantId",
+            "in": "query",
+            "description": "tenantId of the user account",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Search results",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/UnifiedContactsSearchResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UnifiedContactsSearchResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UnifiedContactsSearchResponse"
+                }
+              }
+            }
+          },
+          "402": {
+            "description": "This endpoint requires a valid Pro subscription"
+          },
+          "403": {
+            "description": "Permissions are missing to use the search against this endpoint"
+          },
+          "404": {
+            "description": "Source not found"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "CheckConnectionResponse": {
+        "type": "object",
+        "properties": {
+          "isAdminGranted": {
+            "type": "boolean",
+            "description": "Indicates wheather the admin grant was given to the (enterprise) application"
+          },
+          "grantedPermissions": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "All permissions that are granted",
+            "nullable": true
+          },
+          "notGrantedPermissions": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "All permissions that are needed for Unified Contacts to work fully but are missing",
+            "nullable": true
+          },
+          "clientId": {
+            "type": "string",
+            "description": "Client Id the authentication was made against",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false,
+        "description": "Response model for /api/general/connection"
+      },
+      "CheckLicensingResponse": {
+        "type": "object",
+        "properties": {
+          "valid": {
+            "type": "boolean"
+          },
+          "licenseExpirationDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "bufferState": {
+            "$ref": "#/components/schemas/LicenseBufferState"
+          },
+          "bufferTimestamp": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "bufferExpiry": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateCustomContactPayload": {
+        "type": "object",
+        "properties": {
+          "displayName": {
+            "maxLength": 256,
+            "minLength": 0,
+            "type": "string",
+            "description": "DisplayName of the contact",
+            "nullable": true,
+            "example": "John Doe"
+          },
+          "jobTitle": {
+            "maxLength": 256,
+            "minLength": 0,
+            "type": "string",
+            "description": "JobTitle of the contact",
+            "nullable": true,
+            "example": "Software Developer"
+          },
+          "department": {
+            "maxLength": 256,
+            "minLength": 0,
+            "type": "string",
+            "description": "Department of the contact",
+            "nullable": true,
+            "example": "Development"
+          },
+          "companyName": {
+            "maxLength": 256,
+            "minLength": 0,
+            "type": "string",
+            "description": "Name of company assosiated with the contact",
+            "nullable": true,
+            "example": "Fantastic Company Inc."
+          },
+          "mailAddresses": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Email addresses of the contact",
+            "nullable": true,
+            "example": [
+              "john.doe@example.test"
+            ]
+          },
+          "imAddresses": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Instant messaging addresses of the contact. Used for initiating a chat in Teams. If multiple imAddresses provided, the first one is used for intite a chat. If not provided the first eMail address of the contact is used.",
+            "nullable": true,
+            "example": [
+              "john.doe@example.test"
+            ]
+          },
+          "mobilePhoneNumbers": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Mobile phone numbers of the contact",
+            "nullable": true,
+            "example": [
+              "+123456789"
+            ]
+          },
+          "businessPhoneNumbers": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Business phone numbers of the contact",
+            "nullable": true,
+            "example": [
+              "+123456789"
+            ]
+          },
+          "homePhoneNumbers": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Home phone numbers of the contact",
+            "nullable": true,
+            "example": [
+              "+123456789"
+            ]
+          },
+          "addressFullString": {
+            "maxLength": 256,
+            "minLength": 0,
+            "type": "string",
+            "description": "Full address of the contact. If this is set it is used for displaying the address in the contact card. If not set the address is build from the other address properties.",
+            "nullable": true,
+            "example": "Any Street 1, 12345 Any City, Any Country"
+          },
+          "addressStreetAddress": {
+            "maxLength": 128,
+            "minLength": 0,
+            "type": "string",
+            "description": "Street address of the contact",
+            "nullable": true,
+            "example": "Any Street 1"
+          },
+          "addressPostalCode": {
+            "maxLength": 32,
+            "minLength": 0,
+            "type": "string",
+            "description": "Postal code of the contact",
+            "nullable": true,
+            "example": "12345"
+          },
+          "addressCity": {
+            "maxLength": 128,
+            "minLength": 0,
+            "type": "string",
+            "description": "City of the contact",
+            "nullable": true,
+            "example": "Any City"
+          },
+          "addressCountry": {
+            "maxLength": 128,
+            "minLength": 0,
+            "type": "string",
+            "description": "Country of the contact",
+            "nullable": true,
+            "example": "Any Country"
+          },
+          "source": {
+            "maxLength": 64,
+            "minLength": 0,
+            "type": "string",
+            "description": "Sub source of the contact. This is used to identify the source of the contact if you are using multiple sources, that are synced into the database.",
+            "nullable": true,
+            "example": "SAP"
+          },
+          "id": {
+            "maxLength": 256,
+            "minLength": 0,
+            "type": "string",
+            "description": "Unique identifier of the contact",
+            "nullable": true,
+            "example": "sap_28648f3b-8a60-4ded-a2df-5f303a74a17a"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Model that contains meta information about a contact that are necessary for CRUD operations"
+      },
+      "CustomContactResponse": {
+        "type": "object",
+        "properties": {
+          "displayName": {
+            "maxLength": 256,
+            "minLength": 0,
+            "type": "string",
+            "description": "DisplayName of the contact",
+            "nullable": true,
+            "example": "John Doe"
+          },
+          "jobTitle": {
+            "maxLength": 256,
+            "minLength": 0,
+            "type": "string",
+            "description": "JobTitle of the contact",
+            "nullable": true,
+            "example": "Software Developer"
+          },
+          "department": {
+            "maxLength": 256,
+            "minLength": 0,
+            "type": "string",
+            "description": "Department of the contact",
+            "nullable": true,
+            "example": "Development"
+          },
+          "companyName": {
+            "maxLength": 256,
+            "minLength": 0,
+            "type": "string",
+            "description": "Name of company assosiated with the contact",
+            "nullable": true,
+            "example": "Fantastic Company Inc."
+          },
+          "mailAddresses": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Email addresses of the contact",
+            "nullable": true,
+            "example": [
+              "john.doe@example.test"
+            ]
+          },
+          "imAddresses": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Instant messaging addresses of the contact. Used for initiating a chat in Teams. If multiple imAddresses provided, the first one is used for intite a chat. If not provided the first eMail address of the contact is used.",
+            "nullable": true,
+            "example": [
+              "john.doe@example.test"
+            ]
+          },
+          "mobilePhoneNumbers": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Mobile phone numbers of the contact",
+            "nullable": true,
+            "example": [
+              "+123456789"
+            ]
+          },
+          "businessPhoneNumbers": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Business phone numbers of the contact",
+            "nullable": true,
+            "example": [
+              "+123456789"
+            ]
+          },
+          "homePhoneNumbers": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Home phone numbers of the contact",
+            "nullable": true,
+            "example": [
+              "+123456789"
+            ]
+          },
+          "addressFullString": {
+            "maxLength": 256,
+            "minLength": 0,
+            "type": "string",
+            "description": "Full address of the contact. If this is set it is used for displaying the address in the contact card. If not set the address is build from the other address properties.",
+            "nullable": true,
+            "example": "Any Street 1, 12345 Any City, Any Country"
+          },
+          "addressStreetAddress": {
+            "maxLength": 128,
+            "minLength": 0,
+            "type": "string",
+            "description": "Street address of the contact",
+            "nullable": true,
+            "example": "Any Street 1"
+          },
+          "addressPostalCode": {
+            "maxLength": 32,
+            "minLength": 0,
+            "type": "string",
+            "description": "Postal code of the contact",
+            "nullable": true,
+            "example": "12345"
+          },
+          "addressCity": {
+            "maxLength": 128,
+            "minLength": 0,
+            "type": "string",
+            "description": "City of the contact",
+            "nullable": true,
+            "example": "Any City"
+          },
+          "addressCountry": {
+            "maxLength": 128,
+            "minLength": 0,
+            "type": "string",
+            "description": "Country of the contact",
+            "nullable": true,
+            "example": "Any Country"
+          },
+          "source": {
+            "maxLength": 64,
+            "minLength": 0,
+            "type": "string",
+            "description": "Sub source of the contact. This is used to identify the source of the contact if you are using multiple sources, that are synced into the database.",
+            "nullable": true,
+            "example": "SAP"
+          },
+          "id": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false,
+        "description": "Model that contains all information about a contact"
+      },
+      "DependencyStatus": {
+        "enum": [
+          "HEALTHY",
+          "WARNING",
+          "ERROR",
+          "UNKNOWN"
+        ],
+        "type": "string"
+      },
+      "GetAdminAppRegInfoResponse": {
+        "type": "object",
+        "properties": {
+          "clientId": {
+            "type": "string",
+            "nullable": true
+          },
+          "tenantId": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "GetBatchContactImagesPayload": {
+        "type": "object",
+        "properties": {
+          "contactIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Unique contactsId. This is the Id that is returned from the search endpoints",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false,
+        "description": "Payload for /api/contacts/photos"
+      },
+      "GetBatchPresencePayload": {
+        "type": "object",
+        "properties": {
+          "contactIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Unique contactsId. This is the Id that is returned from the search endpoints",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false,
+        "description": "Payload for /api/contacts/presence"
+      },
+      "GetDependenciesStatusDependency": {
+        "type": "object",
+        "properties": {
+          "displayName": {
+            "type": "string",
+            "nullable": true
+          },
+          "status": {
+            "$ref": "#/components/schemas/DependencyStatus"
+          },
+          "statusDescription": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "GetDependenciesStatusResponse": {
+        "type": "object",
+        "properties": {
+          "dependencies": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/GetDependenciesStatusDependency"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "GetIsUpdateInProgressResponse": {
+        "type": "object",
+        "properties": {
+          "isUpdateInProgress": {
+            "type": "boolean"
+          },
+          "restartRequired": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "GetManifestInfoResponse": {
+        "type": "object",
+        "properties": {
+          "teamsManifestExists": {
+            "type": "boolean"
+          },
+          "teamsManifestUpdatePossible": {
+            "type": "boolean"
+          },
+          "teamsManifestVersion": {
+            "type": "string",
+            "nullable": true
+          },
+          "apiVersion": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "GetManifestSettingsResponse": {
+        "type": "object",
+        "properties": {
+          "displayName": {
+            "type": "string",
+            "nullable": true
+          },
+          "shortDescription": {
+            "type": "string",
+            "nullable": true
+          },
+          "longDescription": {
+            "type": "string",
+            "nullable": true
+          },
+          "clientId": {
+            "type": "string",
+            "nullable": true
+          },
+          "apiDomain": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "GetSettingValueResponse": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "GetVersionResponse": {
+        "type": "object",
+        "properties": {
+          "version": {
+            "type": "string",
+            "description": "Version of UnifiedContacts environment",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "GetVersionUpdateInfoResponse": {
+        "type": "object",
+        "properties": {
+          "updateAvailable": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "restartRequired": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "updateInProgress": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "selectedChannel": {
+            "type": "string",
+            "nullable": true
+          },
+          "updateVersion": {
+            "type": "string",
+            "nullable": true
+          },
+          "currentVersion": {
+            "type": "string",
+            "nullable": true
+          },
+          "avaliableChannels": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LicenseBufferState": {
+        "enum": [
+          "LIVE",
+          "WARNING"
+        ],
+        "type": "string"
+      },
+      "SearchResultAddress": {
+        "type": "object",
+        "properties": {
+          "streetAddress": {
+            "type": "string",
+            "description": "Street address of contact",
+            "nullable": true
+          },
+          "postalCode": {
+            "type": "string",
+            "description": "Postal code of contact",
+            "nullable": true
+          },
+          "city": {
+            "type": "string",
+            "description": "City of contact",
+            "nullable": true
+          },
+          "country": {
+            "type": "string",
+            "description": "Country of contact",
+            "nullable": true
+          },
+          "addressAltString": {
+            "type": "string",
+            "description": "In case the above categories can't be served - This string contains all information in one string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false,
+        "description": "Class that holds all Address information"
+      },
+      "SearchResultAddresses": {
+        "type": "object",
+        "properties": {
+          "home": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SearchResultAddress"
+            },
+            "description": "Private/home addresses",
+            "nullable": true
+          },
+          "business": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SearchResultAddress"
+            },
+            "description": "Business addresses",
+            "nullable": true
+          },
+          "other": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SearchResultAddress"
+            },
+            "description": "Other addresses",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false,
+        "description": "Street addresses of the contact"
+      },
+      "SearchResultPhoneNumbers": {
+        "type": "object",
+        "properties": {
+          "home": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Private/home phone numbers",
+            "nullable": true
+          },
+          "business": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Business phone numbers",
+            "nullable": true
+          },
+          "mobile": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Mobile phone numbers",
+            "nullable": true
+          },
+          "other": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Other phone numbers",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false,
+        "description": "Phone numbers of the contact"
+      },
+      "SetManifestSettingsPayload": {
+        "type": "object",
+        "properties": {
+          "displayName": {
+            "type": "string",
+            "nullable": true
+          },
+          "shortDescription": {
+            "type": "string",
+            "nullable": true
+          },
+          "longDescription": {
+            "type": "string",
+            "nullable": true
+          },
+          "apiDomain": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SetSettingValuePayload": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SetVersionUpdateSettingsPayload": {
+        "type": "object",
+        "properties": {
+          "selectedReleaseChannel": {
+            "type": "string",
+            "nullable": true
+          },
+          "availableReleaseChannels": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UnifiedContactsImageResponse": {
+        "type": "object",
+        "properties": {
+          "contactId": {
+            "type": "string",
+            "description": "Unique id of contact (same as from search endpoint)\r\nTemplate: <UnifiedContactStaticStrings>.<sourceprefix>_<ContactId>\r\nThe ContactId must be chosen so the image endpoint can acquire an image on base of this Id",
+            "nullable": true
+          },
+          "imageType": {
+            "$ref": "#/components/schemas/UnifiedContactsImageType"
+          },
+          "imageData": {
+            "type": "string",
+            "description": "Image data encoded in the in imageType specified format",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false,
+        "description": "Image response model that returns a image of the contact"
+      },
+      "UnifiedContactsImageType": {
+        "enum": [
+          "URL",
+          "BASE64",
+          "NONE"
+        ],
+        "type": "string",
+        "description": "Format of image data"
+      },
+      "UnifiedContactsPresenceResponse": {
+        "type": "object",
+        "properties": {
+          "contactId": {
+            "type": "string",
+            "description": "Unique id of contact (same as from search endpoint)\r\nTemplate: <UnifiedContactStaticStrings>.<sourceprefix>_<ContactId>\r\nThe ContactId must be chosen so the image endpoint can acquire an image on base of this Id",
+            "nullable": true
+          },
+          "availability": {
+            "type": "string",
+            "description": "Availability of user. Same as returned from GraphAPI - https://docs.microsoft.com/en-us/graph/api/resources/presence?view=graph-rest-1.0 / https://docs.microsoft.com/en-us/microsoftteams/presence-admins\r\nCan be null for sources that do not support presence (e.g. Org/UserContacts)",
+            "nullable": true
+          },
+          "activity": {
+            "type": "string",
+            "description": "Activity of user. Same as returned from GraphAPI - https://docs.microsoft.com/en-us/graph/api/resources/presence?view=graph-rest-1.0 / https://docs.microsoft.com/en-us/microsoftteams/presence-admins\r\nCan be null for sources that do not support presence (e.g. Org/UserContacts)",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UnifiedContactsSearchResponse": {
+        "type": "object",
+        "properties": {
+          "searchResult": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/UnifiedContactsSearchResponseSearchResult"
+            },
+            "description": "Search results",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false,
+        "description": "Response Model of all UnifiedContacts endpoints. This is used incase we will provide metadata or features that need metadata (like pagination) in the future."
+      },
+      "UnifiedContactsSearchResponseSearchResult": {
+        "type": "object",
+        "properties": {
+          "source": {
+            "$ref": "#/components/schemas/UnifiedContactsSource"
+          },
+          "subSource": {
+            "type": "string",
+            "description": "More detailed sub source location where the contact was found",
+            "nullable": true
+          },
+          "id": {
+            "type": "string",
+            "description": "Unique Id for every search result.\r\nTemplate: <UnifiedContactStaticStrings>.<sourceprefix>_<ContactId>\r\nThe ContactId must be chosen so the image endpoint can acquire an image on base of this Id",
+            "nullable": true
+          },
+          "displayName": {
+            "type": "string",
+            "description": "Displayname of the contact",
+            "nullable": true
+          },
+          "jobTitle": {
+            "type": "string",
+            "description": "Job title of the contact",
+            "nullable": true
+          },
+          "department": {
+            "type": "string",
+            "description": "Department of the contact",
+            "nullable": true
+          },
+          "companyName": {
+            "type": "string",
+            "description": "Company name of the contact",
+            "nullable": true
+          },
+          "mailAddresses": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "E-Mail addresses of the contact",
+            "nullable": true
+          },
+          "imAddresses": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Instant messaging addresses of the contact - These are used for the Teams conversation deeplink",
+            "nullable": true
+          },
+          "phoneNumbers": {
+            "$ref": "#/components/schemas/SearchResultPhoneNumbers"
+          },
+          "addresses": {
+            "$ref": "#/components/schemas/SearchResultAddresses"
+          },
+          "isFavorite": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Unified search result model"
+      },
+      "UnifiedContactsSource": {
+        "enum": [
+          "AZURE_AD",
+          "ORG_CONTACT",
+          "USER_CONTACT",
+          "SHAREPOINT",
+          "DATABASE"
+        ],
+        "type": "string",
+        "description": "Source location where the contact was found"
+      },
+      "UpdateCustomContactPayload": {
+        "type": "object",
+        "properties": {
+          "displayName": {
+            "maxLength": 256,
+            "minLength": 0,
+            "type": "string",
+            "description": "DisplayName of the contact",
+            "nullable": true,
+            "example": "John Doe"
+          },
+          "jobTitle": {
+            "maxLength": 256,
+            "minLength": 0,
+            "type": "string",
+            "description": "JobTitle of the contact",
+            "nullable": true,
+            "example": "Software Developer"
+          },
+          "department": {
+            "maxLength": 256,
+            "minLength": 0,
+            "type": "string",
+            "description": "Department of the contact",
+            "nullable": true,
+            "example": "Development"
+          },
+          "companyName": {
+            "maxLength": 256,
+            "minLength": 0,
+            "type": "string",
+            "description": "Name of company assosiated with the contact",
+            "nullable": true,
+            "example": "Fantastic Company Inc."
+          },
+          "mailAddresses": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Email addresses of the contact",
+            "nullable": true,
+            "example": [
+              "john.doe@example.test"
+            ]
+          },
+          "imAddresses": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Instant messaging addresses of the contact. Used for initiating a chat in Teams. If multiple imAddresses provided, the first one is used for intite a chat. If not provided the first eMail address of the contact is used.",
+            "nullable": true,
+            "example": [
+              "john.doe@example.test"
+            ]
+          },
+          "mobilePhoneNumbers": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Mobile phone numbers of the contact",
+            "nullable": true,
+            "example": [
+              "+123456789"
+            ]
+          },
+          "businessPhoneNumbers": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Business phone numbers of the contact",
+            "nullable": true,
+            "example": [
+              "+123456789"
+            ]
+          },
+          "homePhoneNumbers": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Home phone numbers of the contact",
+            "nullable": true,
+            "example": [
+              "+123456789"
+            ]
+          },
+          "addressFullString": {
+            "maxLength": 256,
+            "minLength": 0,
+            "type": "string",
+            "description": "Full address of the contact. If this is set it is used for displaying the address in the contact card. If not set the address is build from the other address properties.",
+            "nullable": true,
+            "example": "Any Street 1, 12345 Any City, Any Country"
+          },
+          "addressStreetAddress": {
+            "maxLength": 128,
+            "minLength": 0,
+            "type": "string",
+            "description": "Street address of the contact",
+            "nullable": true,
+            "example": "Any Street 1"
+          },
+          "addressPostalCode": {
+            "maxLength": 32,
+            "minLength": 0,
+            "type": "string",
+            "description": "Postal code of the contact",
+            "nullable": true,
+            "example": "12345"
+          },
+          "addressCity": {
+            "maxLength": 128,
+            "minLength": 0,
+            "type": "string",
+            "description": "City of the contact",
+            "nullable": true,
+            "example": "Any City"
+          },
+          "addressCountry": {
+            "maxLength": 128,
+            "minLength": 0,
+            "type": "string",
+            "description": "Country of the contact",
+            "nullable": true,
+            "example": "Any Country"
+          },
+          "source": {
+            "maxLength": 64,
+            "minLength": 0,
+            "type": "string",
+            "description": "Sub source of the contact. This is used to identify the source of the contact if you are using multiple sources, that are synced into the database.",
+            "nullable": true,
+            "example": "SAP"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Model that contains meta information about a contact that are necessary for CRUD operations"
+      }
+    }
+  }
+}

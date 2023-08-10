@@ -14,7 +14,7 @@ We appreciate any feedback on our service and documentation to improve it.
 
 Unified Contacts extends Microsoft Teams by delivering a unified search experience for the two most popular address books – **Azure Active Directory** as the corporate address book and **Microsoft Exchange Online** as the personal contact store. Additionally, Unified Contacts automatically searches **SharePoint Online** for contact-type lists, allowing the integration with 3rd party contact databases and CRM systems.
 
-<figure><img src=".gitbook/assets/image (17).png" alt=""><figcaption><p>Unified Contacts</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (17) (1).png" alt=""><figcaption><p>Unified Contacts</p></figcaption></figure>
 
 Unified Contacts matches the following contact properties against your search query and presents the results in a familiar, comprehensive and coherent format across different contact sources:
 

@@ -1,0 +1,690 @@
+{
+	"info": {
+		"_postman_id": "c0183822-cc44-42a5-a336-c5b3470e6373",
+		"name": "Unified Contacts Documentation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24701310"
+	},
+	"item": [
+		{
+			"name": "Insert a new database contact",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "text/plain"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"displayName\": \"<string>\",\n  \"jobTitle\": \"<string>\",\n  \"department\": \"<string>\",\n  \"companyName\": \"<string>\",\n  \"mailAddresses\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"imAddresses\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"mobilePhoneNumbers\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"businessPhoneNumbers\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"homePhoneNumbers\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"addressFullString\": \"<string>\",\n  \"addressStreetAddress\": \"<string>\",\n  \"addressPostalCode\": \"<string>\",\n  \"addressCity\": \"<string>\",\n  \"addressCountry\": \"<string>\",\n  \"source\": \"<string>\",\n  \"id\": \"<string>\"\n}",
+					"options": {
+						"raw": {
+							"headerFamily": "json",
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/api/v1/contacts",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"contacts"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Success",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "text/plain"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"displayName\": \"<string>\",\n  \"jobTitle\": \"<string>\",\n  \"department\": \"<string>\",\n  \"companyName\": \"<string>\",\n  \"mailAddresses\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"imAddresses\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"mobilePhoneNumbers\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"businessPhoneNumbers\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"homePhoneNumbers\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"addressFullString\": \"<string>\",\n  \"addressStreetAddress\": \"<string>\",\n  \"addressPostalCode\": \"<string>\",\n  \"addressCity\": \"<string>\",\n  \"addressCountry\": \"<string>\",\n  \"source\": \"<string>\",\n  \"id\": \"<string>\"\n}",
+							"options": {
+								"raw": {
+									"headerFamily": "json",
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/contacts",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"contacts"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"displayName\": \"<string>\",\n  \"jobTitle\": \"<string>\",\n  \"department\": \"<string>\",\n  \"companyName\": \"<string>\",\n  \"mailAddresses\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"imAddresses\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"mobilePhoneNumbers\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"businessPhoneNumbers\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"homePhoneNumbers\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"addressFullString\": \"<string>\",\n  \"addressStreetAddress\": \"<string>\",\n  \"addressPostalCode\": \"<string>\",\n  \"addressCity\": \"<string>\",\n  \"addressCountry\": \"<string>\",\n  \"source\": \"<string>\",\n  \"id\": \"<string>\"\n}"
+				},
+				{
+					"name": "Contact was successfully created",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"displayName\": \"<string>\",\n  \"jobTitle\": \"<string>\",\n  \"department\": \"<string>\",\n  \"companyName\": \"<string>\",\n  \"mailAddresses\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"imAddresses\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"mobilePhoneNumbers\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"businessPhoneNumbers\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"homePhoneNumbers\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"addressFullString\": \"<string>\",\n  \"addressStreetAddress\": \"<string>\",\n  \"addressPostalCode\": \"<string>\",\n  \"addressCity\": \"<string>\",\n  \"addressCountry\": \"<string>\",\n  \"source\": \"<string>\",\n  \"id\": \"<string>\"\n}",
+							"options": {
+								"raw": {
+									"headerFamily": "json",
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/contacts",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"contacts"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "text",
+					"header": [],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "Contact with id already exists",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"displayName\": \"<string>\",\n  \"jobTitle\": \"<string>\",\n  \"department\": \"<string>\",\n  \"companyName\": \"<string>\",\n  \"mailAddresses\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"imAddresses\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"mobilePhoneNumbers\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"businessPhoneNumbers\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"homePhoneNumbers\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"addressFullString\": \"<string>\",\n  \"addressStreetAddress\": \"<string>\",\n  \"addressPostalCode\": \"<string>\",\n  \"addressCity\": \"<string>\",\n  \"addressCountry\": \"<string>\",\n  \"source\": \"<string>\",\n  \"id\": \"<string>\"\n}",
+							"options": {
+								"raw": {
+									"headerFamily": "json",
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/contacts",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"contacts"
+							]
+						}
+					},
+					"status": "Conflict",
+					"code": 409,
+					"_postman_previewlanguage": "text",
+					"header": [],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "Get a database contact",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "text/plain"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/v1/contacts/:contactId",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"contacts",
+						":contactId"
+					],
+					"variable": [
+						{
+							"key": "contactId",
+							"value": "<string>"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Contact successfully found and returned",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "text/plain"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/contacts/:contactId",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"contacts",
+								":contactId"
+							],
+							"variable": [
+								{
+									"key": "contactId"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"displayName\": \"<string>\",\n  \"jobTitle\": \"<string>\",\n  \"department\": \"<string>\",\n  \"companyName\": \"<string>\",\n  \"mailAddresses\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"imAddresses\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"mobilePhoneNumbers\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"businessPhoneNumbers\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"homePhoneNumbers\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"addressFullString\": \"<string>\",\n  \"addressStreetAddress\": \"<string>\",\n  \"addressPostalCode\": \"<string>\",\n  \"addressCity\": \"<string>\",\n  \"addressCountry\": \"<string>\",\n  \"source\": \"<string>\",\n  \"id\": \"<string>\"\n}"
+				},
+				{
+					"name": "Contact with id not found",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/contacts/:contactId",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"contacts",
+								":contactId"
+							],
+							"variable": [
+								{
+									"key": "contactId"
+								}
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "text",
+					"header": [],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "Update (Overwrite) an existing contact",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "text/plain"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"displayName\": \"<string>\",\n  \"jobTitle\": \"<string>\",\n  \"department\": \"<string>\",\n  \"companyName\": \"<string>\",\n  \"mailAddresses\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"imAddresses\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"mobilePhoneNumbers\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"businessPhoneNumbers\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"homePhoneNumbers\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"addressFullString\": \"<string>\",\n  \"addressStreetAddress\": \"<string>\",\n  \"addressPostalCode\": \"<string>\",\n  \"addressCity\": \"<string>\",\n  \"addressCountry\": \"<string>\",\n  \"source\": \"<string>\"\n}",
+					"options": {
+						"raw": {
+							"headerFamily": "json",
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/api/v1/contacts/:contactId",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"contacts",
+						":contactId"
+					],
+					"variable": [
+						{
+							"key": "contactId",
+							"value": "<string>"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Contact was successfully updated - full contact info is returned",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "text/plain"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"displayName\": \"<string>\",\n  \"jobTitle\": \"<string>\",\n  \"department\": \"<string>\",\n  \"companyName\": \"<string>\",\n  \"mailAddresses\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"imAddresses\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"mobilePhoneNumbers\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"businessPhoneNumbers\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"homePhoneNumbers\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"addressFullString\": \"<string>\",\n  \"addressStreetAddress\": \"<string>\",\n  \"addressPostalCode\": \"<string>\",\n  \"addressCity\": \"<string>\",\n  \"addressCountry\": \"<string>\",\n  \"source\": \"<string>\"\n}",
+							"options": {
+								"raw": {
+									"headerFamily": "json",
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/contacts/:contactId",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"contacts",
+								":contactId"
+							],
+							"variable": [
+								{
+									"key": "contactId"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"displayName\": \"<string>\",\n  \"jobTitle\": \"<string>\",\n  \"department\": \"<string>\",\n  \"companyName\": \"<string>\",\n  \"mailAddresses\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"imAddresses\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"mobilePhoneNumbers\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"businessPhoneNumbers\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"homePhoneNumbers\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"addressFullString\": \"<string>\",\n  \"addressStreetAddress\": \"<string>\",\n  \"addressPostalCode\": \"<string>\",\n  \"addressCity\": \"<string>\",\n  \"addressCountry\": \"<string>\",\n  \"source\": \"<string>\",\n  \"id\": \"<string>\"\n}"
+				},
+				{
+					"name": "Contact with id not found",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"displayName\": \"<string>\",\n  \"jobTitle\": \"<string>\",\n  \"department\": \"<string>\",\n  \"companyName\": \"<string>\",\n  \"mailAddresses\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"imAddresses\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"mobilePhoneNumbers\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"businessPhoneNumbers\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"homePhoneNumbers\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"addressFullString\": \"<string>\",\n  \"addressStreetAddress\": \"<string>\",\n  \"addressPostalCode\": \"<string>\",\n  \"addressCity\": \"<string>\",\n  \"addressCountry\": \"<string>\",\n  \"source\": \"<string>\"\n}",
+							"options": {
+								"raw": {
+									"headerFamily": "json",
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/contacts/:contactId",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"contacts",
+								":contactId"
+							],
+							"variable": [
+								{
+									"key": "contactId"
+								}
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "text",
+					"header": [],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "Update an existing contact",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "text/plain"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"displayName\": \"<string>\",\n  \"jobTitle\": \"<string>\",\n  \"department\": \"<string>\",\n  \"companyName\": \"<string>\",\n  \"mailAddresses\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"imAddresses\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"mobilePhoneNumbers\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"businessPhoneNumbers\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"homePhoneNumbers\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"addressFullString\": \"<string>\",\n  \"addressStreetAddress\": \"<string>\",\n  \"addressPostalCode\": \"<string>\",\n  \"addressCity\": \"<string>\",\n  \"addressCountry\": \"<string>\",\n  \"source\": \"<string>\"\n}",
+					"options": {
+						"raw": {
+							"headerFamily": "json",
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/api/v1/contacts/:contactId",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"contacts",
+						":contactId"
+					],
+					"variable": [
+						{
+							"key": "contactId",
+							"value": "<string>"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Contact was successfully updated - full contact info is returned",
+					"originalRequest": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "text/plain"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"displayName\": \"<string>\",\n  \"jobTitle\": \"<string>\",\n  \"department\": \"<string>\",\n  \"companyName\": \"<string>\",\n  \"mailAddresses\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"imAddresses\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"mobilePhoneNumbers\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"businessPhoneNumbers\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"homePhoneNumbers\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"addressFullString\": \"<string>\",\n  \"addressStreetAddress\": \"<string>\",\n  \"addressPostalCode\": \"<string>\",\n  \"addressCity\": \"<string>\",\n  \"addressCountry\": \"<string>\",\n  \"source\": \"<string>\"\n}",
+							"options": {
+								"raw": {
+									"headerFamily": "json",
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/contacts/:contactId",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"contacts",
+								":contactId"
+							],
+							"variable": [
+								{
+									"key": "contactId"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"displayName\": \"<string>\",\n  \"jobTitle\": \"<string>\",\n  \"department\": \"<string>\",\n  \"companyName\": \"<string>\",\n  \"mailAddresses\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"imAddresses\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"mobilePhoneNumbers\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"businessPhoneNumbers\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"homePhoneNumbers\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"addressFullString\": \"<string>\",\n  \"addressStreetAddress\": \"<string>\",\n  \"addressPostalCode\": \"<string>\",\n  \"addressCity\": \"<string>\",\n  \"addressCountry\": \"<string>\",\n  \"source\": \"<string>\",\n  \"id\": \"<string>\"\n}"
+				},
+				{
+					"name": "Contact with id not found",
+					"originalRequest": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"displayName\": \"<string>\",\n  \"jobTitle\": \"<string>\",\n  \"department\": \"<string>\",\n  \"companyName\": \"<string>\",\n  \"mailAddresses\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"imAddresses\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"mobilePhoneNumbers\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"businessPhoneNumbers\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"homePhoneNumbers\": [\n    \"<string>\",\n    \"<string>\"\n  ],\n  \"addressFullString\": \"<string>\",\n  \"addressStreetAddress\": \"<string>\",\n  \"addressPostalCode\": \"<string>\",\n  \"addressCity\": \"<string>\",\n  \"addressCountry\": \"<string>\",\n  \"source\": \"<string>\"\n}",
+							"options": {
+								"raw": {
+									"headerFamily": "json",
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/contacts/:contactId",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"contacts",
+								":contactId"
+							],
+							"variable": [
+								{
+									"key": "contactId"
+								}
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "text",
+					"header": [],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "Delete an existing contact",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/api/v1/contacts/:contactId",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"contacts",
+						":contactId"
+					],
+					"variable": [
+						{
+							"key": "contactId",
+							"value": "<string>"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Success",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/contacts/:contactId",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"contacts",
+								":contactId"
+							],
+							"variable": [
+								{
+									"key": "contactId"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "Contact was successfully deleted",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/contacts/:contactId",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"contacts",
+								":contactId"
+							],
+							"variable": [
+								{
+									"key": "contactId"
+								}
+							]
+						}
+					},
+					"status": "No Content",
+					"code": 204,
+					"_postman_previewlanguage": "text",
+					"header": [],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "Contact with id not found",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/contacts/:contactId",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"contacts",
+								":contactId"
+							],
+							"variable": [
+								{
+									"key": "contactId"
+								}
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "text",
+					"header": [],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "/"
+		}
+	]
+}

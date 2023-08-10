@@ -32,7 +32,7 @@ Views
 
 Unified Contacts currently provides two views to display the search results: compact tiles and detailed tiles. The compact format gives you the most relevant contact information and access to all relevant controls while preserving space for more search results at a glance. The detailed tile gives you immediate access to all significant properties of the contact object and adds copy-to-clipboard controls.
 
-![](<.gitbook/assets/image (26).png>)![](<.gitbook/assets/image (10) (2).png>)
+![](<.gitbook/assets/image (26) (1).png>)![](<.gitbook/assets/image (10) (2).png>)
 
 Both views allow you to immediately
 

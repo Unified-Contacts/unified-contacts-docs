@@ -68,7 +68,7 @@ To properly link all components of Unified Contacts Pro, several permissions nee
 2.  Copy the content of the black box to your clipboard and paste it into a text editor. \
 
 
-    <figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (38) (1).png" alt=""><figcaption></figcaption></figure>
 3. Now you need to replace the `AppServiceAzureUrl` with the correct URL from your Unified Contacts **App Service**. Therefore
    1. Navigate to the Unified Contacts **App Service** "Overview" blade.&#x20;
    2.  Copy the URL from your browser and replace the `AppServiceAzureUrl` argument value in the text editor with this URL.\
@@ -79,7 +79,7 @@ To properly link all components of Unified Contacts Pro, several permissions nee
 5.  During the script execution, you will be prompted for the SQL server administration account. Please provide the credentials you specified during the deployment in the ARM template.\
 
 
-    <figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 6. If you have previously configured a **Custom domain** on the Unified Contacts **App Service**, the script will prompt you for the correct **App Service URL**. Please select the custom domain.
 7.  Towards the end of the script, you will be asked to grant the permissions (**read-only**) required for the Unified Contacts front- and backend to function properly. Please consent to those permissions by
 
@@ -91,7 +91,7 @@ To properly link all components of Unified Contacts Pro, several permissions nee
 9.  To verify the successful deployment, navigate to the Unified Contacts **App Service**, select "Overview" and click "Browse". The health indicators on the left side should all indicate "Healthy".\
 
 
-    <figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 It may initially take up to **5 minutes** until the Unified Contacts backend portal is loaded.

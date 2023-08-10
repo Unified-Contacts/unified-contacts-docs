@@ -21,6 +21,10 @@
 * [License Key](advanced-configuration/license-key.md)
 * [Logs & Telemetry](advanced-configuration/logs-and-telemetry.md)
 * [SharePoint Online Lists](advanced-configuration/sharepoint-online-lists.md)
+* [Database as contact source](advanced-configuration/database-as-contact-source/README.md)
+  * [Sync Data with Azure Data Factory](advanced-configuration/database-as-contact-source/sync-data-with-azure-data-factory.md)
+  * [CRUD operations with REST API](advanced-configuration/database-as-contact-source/crud-operations-with-rest-api.md)
+  * [Update for UC < 1.5.0](advanced-configuration/database-as-contact-source/update-for-uc-less-than-1.5.0.md)
 * [Update Strategy](advanced-configuration/update-strategy.md)
 
 ## OTHERS
