@@ -30,7 +30,7 @@
 ## OTHERS
 
 * [FAQs](others/faq.md)
-* [Change Log](others/changelog.md)
+* [Changelog](others/changelog.md)
 * [Feedback](others/feedback.md)
 * [Important Links](others/important-links.md)
 
