@@ -37,12 +37,13 @@ We recommend Unified Contacts Free:
 
 The following table shows the most important differences between the two editions:
 
-| Unified Contacts Feature                    | Unified Contacts Free                 | Unified Contacts Pro                  |
-| ------------------------------------------- | ------------------------------------- | ------------------------------------- |
-| Hosting model                               | SaaS                                  | Customer tenant                       |
-| Search **Azure AD** contacts                | <mark style="color:green;">yes</mark> | <mark style="color:green;">yes</mark> |
-| Search **Outlook/Exchange Online** contacts | <mark style="color:green;">yes</mark> | <mark style="color:green;">yes</mark> |
-| Search **SharePoint Online** contact lists  | <mark style="color:red;">no</mark>    | <mark style="color:green;">yes</mark> |
-| Favorites                                   | <mark style="color:red;">no</mark>    | <mark style="color:green;">yes</mark> |
-| Suppression of Azure AD ADM accounts        | <mark style="color:red;">no</mark>    | <mark style="color:green;">yes</mark> |
-| Support                                     | <mark style="color:red;">no</mark>    | <mark style="color:green;">yes</mark> |
+| Unified Contacts Feature                                | Unified Contacts Free                 | Unified Contacts Pro                  |
+| ------------------------------------------------------- | ------------------------------------- | ------------------------------------- |
+| Hosting model                                           | SaaS                                  | Customer tenant                       |
+| Search **Azure AD** contacts                            | <mark style="color:green;">yes</mark> | <mark style="color:green;">yes</mark> |
+| Search **Outlook/Exchange Online** contacts             | <mark style="color:green;">yes</mark> | <mark style="color:green;">yes</mark> |
+| Search **SharePoint Online** contact lists              | <mark style="color:red;">no</mark>    | <mark style="color:green;">yes</mark> |
+| Ingest contacts in the **UC Database** (via API or ADF) | <mark style="color:red;">no</mark>    | <mark style="color:green;">yes</mark> |
+| Favorites                                               | <mark style="color:red;">no</mark>    | <mark style="color:green;">yes</mark> |
+| Suppression of Azure AD ADM accounts                    | <mark style="color:red;">no</mark>    | <mark style="color:green;">yes</mark> |
+| Support                                                 | <mark style="color:red;">no</mark>    | <mark style="color:green;">yes</mark> |

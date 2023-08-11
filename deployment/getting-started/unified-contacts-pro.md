@@ -126,13 +126,19 @@ This is a **mandatory** step.
 
     <figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
 
-## Step 6: Create a SharePoint List as Contact Source
+## Step 6: Import Contacts from 3rd Party Sources and CRM Systems
 
 {% hint style="info" %}
 This is an **optional** step.
 {% endhint %}
 
-To create and configure a **SharePoint Online contacts list** for Unified Contacts, follow this guide:
+You may import contacts from 3rd party contact sources or CRM systems by leveraging the UC Database
+
+{% content-ref url="../../advanced-configuration/uc-database/" %}
+[uc-database](../../advanced-configuration/uc-database/)
+{% endcontent-ref %}
+
+or SharePoint Online Lists:
 
 {% content-ref url="../../advanced-configuration/sharepoint-online-lists.md" %}
 [sharepoint-online-lists.md](../../advanced-configuration/sharepoint-online-lists.md)
