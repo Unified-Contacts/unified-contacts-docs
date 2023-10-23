@@ -62,4 +62,6 @@ Disabled users are not displayed in the result views.
 
 ## How do I clean the Teams desktop app cache?
 
-Details can be found in the Microsoft Docs for different platforms: [https://learn.microsoft.com/en-us/microsoftteams/troubleshoot/teams-administration/clear-teams-cache](https://learn.microsoft.com/en-us/microsoftteams/troubleshoot/teams-administration/clear-teams-cache)
+Details can be found in the Microsoft Docs for different platforms: [https://learn.microsoft.com/en-us/microsoftteams/troubleshoot/teams-administration/clear-teams-cache](https://learn.microsoft.com/en-us/microsoftteams/troubleshoot/teams-administration/clear-teams-cache)\
+In case you are using the new Teams 2.0 Client you have to quit Teams and delete the content of `%userprofile%\appdata\local\Packages\MSTeams_8wekyb3d8bbwe\`
+
