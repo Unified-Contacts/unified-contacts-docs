@@ -9,7 +9,7 @@ Unified Contacts Pro can search for contacts in **SharePoint Online lists**. You
 * As bridge technology to export your customer contact data from any third party database and import it to SharePoint Online
 * To deploy a centralized, shared contact list in your departments or business units
 
-To optimize the search in SharePoint Online, Unified Contacts Pro searches for a dedicated SharePoint **content type** - contacts. Therefor your contacts needs to be stored in a SharePoint Online list where the content type "contacts" is assigned to.
+To optimize the search in SharePoint Online, Unified Contacts Pro searches for a dedicated SharePoint **content type** - contacts. Therefor your contacts needs to be stored in a SharePoint Online **Contacts** list or a **List** where the content type "contacts" is assigned to.
 
 {% hint style="warning" %}
 Users will only be able to search a SharePoint Online list if they have (read-) permissions to access the list **and** the site under which it is stored.
