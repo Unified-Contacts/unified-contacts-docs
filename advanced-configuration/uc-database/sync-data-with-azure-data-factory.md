@@ -64,6 +64,12 @@ The Azure Data Factory supports more than 90 Data Sources natively (e.g. MySQL, 
 
 * Configure the **Source -> Destination** mappings
 
+{% hint style="danger" %}
+Please ensure that your data fits the specified [database schema](./#schema-definition). Any rows not fitting the schema might cause the Copy activity to fail or the faulty rows to be skipped, depending on the configured fault tolerance.\
+\
+In the case of fields that are too long consider editing the data in your source (query) or adding a Data Flow activity to transform it into a valid form (i. e. shortening the text and adding "..." at the end.)
+{% endhint %}
+
 <figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 * Finally, configure the settings for the **copy data task**

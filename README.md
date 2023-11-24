@@ -12,7 +12,7 @@ We appreciate any feedback on our service and documentation to improve it.
 
 ## Overview
 
-Unified Contacts extends Microsoft Teams by delivering a unified search experience for the two most popular address books – **Azure Active Directory** as the corporate address book and **Microsoft Exchange Online** as the personal contact store. Additionally, Unified Contacts enables the integration of 3rd party contact databases and CRM systems by
+Unified Contacts extends Microsoft Teams by delivering a unified search experience for the two most popular address books – **EntraId (fka. Azure Active Directory)** as the corporate address book and **Microsoft Exchange Online** as the personal contact store. Additionally, Unified Contacts enables the integration of 3rd party contact databases and CRM systems by
 
 * providing a powerful [**Database**](advanced-configuration/uc-database/) and [**REST API**](advanced-configuration/uc-database/crud-operations-with-rest-api.md) facilitating a simplistic and automatic ingestion of contact data
 * automatically searching [**SharePoint Online**](advanced-configuration/sharepoint-online-lists.md) for contact-type lists
