@@ -64,7 +64,7 @@ This is a **mandatory** step.
 
 To properly link all components of Unified Contacts Pro, several permissions need to be assigned. Please follow these steps to establish the relevant connections:
 
-1. Navigate to the Unified Contacts backend website. Therefore, navigate to the Unified Contacts **App Service**, select "Overview" and click "Browse".
+1. Navigate to the Unified Contacts backend website. For that, navigate to the Unified Contacts **App Service**, select "Overview" and click "Browse".
 2.  Copy the content of the black box to your clipboard and paste it into a text editor. \
 
 

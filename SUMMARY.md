@@ -25,7 +25,9 @@
   * [Sync Data with Azure Data Factory](advanced-configuration/uc-database/sync-data-with-azure-data-factory.md)
   * [CRUD operations with REST API](advanced-configuration/uc-database/crud-operations-with-rest-api.md)
   * [Updating to Unified Contacts Pro 1.5.0](advanced-configuration/uc-database/updating-to-unified-contacts-pro-1.5.0.md)
-* [Update Strategy](advanced-configuration/update-strategy.md)
+* [Update Strategy](advanced-configuration/update-strategy/README.md)
+  * [Updating from older versions (<=1.5.1)](advanced-configuration/update-strategy/updating-from-older-versions-less-than-1.5.1.md)
+  * [Release Channels](advanced-configuration/update-strategy/release-channels.md)
 
 ## OTHERS
 

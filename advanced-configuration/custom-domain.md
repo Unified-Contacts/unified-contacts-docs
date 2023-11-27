@@ -40,7 +40,7 @@ By clicking on add, the custom domain and the SSL Managed Certificate will be cr
 * Register the displayed CNAME or TXT record mapping with your DNS provider. Once this is done, click "Validate".
 * Click "Add" when the validation is successful.
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 In both cases it can take a few moments until the SSL binding with the **App Service Managed Certificate** is complete.
