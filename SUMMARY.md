@@ -8,6 +8,7 @@
 
 * [Getting Started](deployment/getting-started/README.md)
   * [Unified Contacts Pro](deployment/getting-started/unified-contacts-pro.md)
+  * [Unified Contacts CE](deployment/getting-started/unified-contacts-ce.md)
   * [Unified Contacts Free](deployment/getting-started/installation-guide.md)
 * [Deinstallation](deployment/deinstallation/README.md)
   * [Unified Contacts Pro](deployment/deinstallation/unified-contacts-pro.md)
@@ -20,8 +21,9 @@
 * [Custom Domain](advanced-configuration/custom-domain.md)
 * [License Key](advanced-configuration/license-key.md)
 * [Logs & Telemetry](advanced-configuration/logs-and-telemetry.md)
+* [🆕 SBC Number Lookup](advanced-configuration/sbc-number-lookup.md)
 * [SharePoint Online Lists](advanced-configuration/sharepoint-online-lists.md)
-* [🆕 UC Database](advanced-configuration/uc-database/README.md)
+* [UC Database](advanced-configuration/uc-database/README.md)
   * [Sync Data with Azure Data Factory](advanced-configuration/uc-database/sync-data-with-azure-data-factory.md)
   * [CRUD operations with REST API](advanced-configuration/uc-database/crud-operations-with-rest-api.md)
   * [Updating to Unified Contacts Pro 1.5.0](advanced-configuration/uc-database/updating-to-unified-contacts-pro-1.5.0.md)

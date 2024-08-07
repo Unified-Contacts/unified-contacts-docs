@@ -4,7 +4,7 @@ description: What does Unified Contacts do and why should I use it?
 
 # Details
 
-## Why Unified Contacts?
+Unified Contacts Free Architectural OverviewWhy Unified Contacts?
 
 Unified Contacts is a Microsoft Teams app helping you to optimize contact search in the Teams ecosystem.
 
@@ -33,7 +33,7 @@ With Unified Contacts you can search for contacts in your **personal Outlook con
 
 Unified Contacts currently provides two views to display the search results: compact tiles and detailed tiles. The compact format gives you the most relevant contact information and access to all relevant controls while preserving space for more search results at a glance. The detailed tile gives you immediate access to all significant properties of the contact object and adds copy-to-clipboard controls.
 
-![](<.gitbook/assets/image (26) (1).png>)![](<.gitbook/assets/image (10) (2).png>)
+![](<.gitbook/assets/image (73).png>)![](<.gitbook/assets/image (60).png>)
 
 Both views allow you to immediately
 
@@ -69,13 +69,13 @@ Unified Contacts implements a search logic based on the "starts-with" strategy. 
 
 The **Unified Contacts Free** backend is centrally hosted in our Azure tenant(s) for all customers (SaaS). To access the contact sources (Azure Active Directory and Exchange Online) in your tenant, Unified Contacts Free requires **Microsoft Graph** permissions that have to be granted during the [setup of the service](deployment/getting-started/installation-guide.md). Please note, that all permissions are based on a **delegation model**, i.e. Unified Contacts Free is only able to access those contacts that the signed in end-user has access to. The Unified Contacts Free Teams App (frontend) directly communicates with our backend to retrieve search results.
 
-<figure><img src=".gitbook/assets/Screenshot 2023-01-30 at 15.27.26.png" alt=""><figcaption><p>Unified Contacts Free Architectural Overview</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>Unified Contacts Free Architectural Overview</p></figcaption></figure>
 
-### Unified Contacts Pro
+### Unified Contacts Pro & Community Edition
 
-Unlike **Unified Contacts Free**, the backend of **Unified Contacts Pro** is deployed into **your** **own Azure tenant**, giving you full control over the data the service processes. In fact, you can configure that **no data** (except limited and anonymous telemetry data required for license enforcement purposes) leaves your tenant at all.
+Unlike **Unified Contacts Free**, the backend of **Unified Contacts Pro** and **Unified Contacts Community Edition (CE)** is deployed into **your** **own Azure tenant**, giving you full control over the data the service processes. In fact, you can configure that **no data** (except limited and anonymous telemetry data required for license enforcement purposes) leaves your tenant at all.
 
 The Unified Contacts Pro backend is running as an **Azure App Service**, powered by an **App Service Plan**. Besides the **App Service**, some additional resources are deployed, allowing us to host the binaries and to store data persistently (Azure DB). The individual resources are linked to each other via APIs, where the **Graph API** is used to access all your contact sources (Azure Active Directory, Exchange Online, SharePoint Online, UC Database). Permissions, roles and service principals are auto-generated and - assigned during deployment in your Azure AD.
 
-<figure><img src=".gitbook/assets/Screenshot 2023-01-30 at 15.26.37.png" alt=""><figcaption><p>Unified Contacts Pro Architectural Overview</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption><p>Unified Contacts Pro Architectural Overview</p></figcaption></figure>
 

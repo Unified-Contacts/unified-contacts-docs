@@ -29,38 +29,38 @@ The Azure Data Factory supports more than 90 Data Sources natively (e.g. MySQL, 
 {% endhint %}
 
 * Click on "Ingest" to begin the configuration\
-  ![](<../../.gitbook/assets/image (41).png>)&#x20;
+  ![](<../../.gitbook/assets/image (94).png>)&#x20;
 * Select **Built-In copy task** and **Schedule**. Normally, a daily ingestion is sufficient but it can be configured to run more frequently if required.
 
-<figure><img src="../../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (95).png" alt=""><figcaption></figcaption></figure>
 
 * In the **Source Screen**, select the data source that you want to use and then click "New connection"
 * In this example, we are ingesting data from a **Dynamics Business Central Instance** and are going to connect via HTTP to it.
 
-<figure><img src="../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (102).png" alt=""><figcaption></figcaption></figure>
 
 * Under the **Source data store**, select **HTTP**
 
-<figure><img src="../../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (97).png" alt=""><figcaption></figcaption></figure>
 
 * In the next screen, enter a connection **Name**, the **Base URL** and chosen **Connection method**. Then click "Next".
 
-<figure><img src="../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (98).png" alt=""><figcaption></figcaption></figure>
 
 * In the following screen, all defaults can be accepted
 
-<figure><img src="../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (99).png" alt=""><figcaption></figcaption></figure>
 
 * Next, we need to provide the details of the database where the data collected from our Data Source will be stored. This database is created as part of the Unified Contacts installation (**UC Database**).
 * If you did not choose a custom naming when installing Unified Contacts Pro the DB-Server is called `db-uc-` followed by 13 digits and numbers and the DB itself `sql-db` by default.&#x20;
 * By choosing the **Account Selection Method** "From Azure Subscription" the database details will be retrieved automatically.
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 * Once you have entered all the data, click "Apply"
 * Then confirm the **File format settings** for your data source
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
 * Configure the **Source -> Destination** mappings
 
@@ -70,13 +70,13 @@ Please ensure that your data fits the specified [database schema](./#schema-defi
 In the case of fields that are too long consider editing the data in your source (query) or adding a Data Flow activity to transform it into a valid form (i. e. shortening the text and adding "..." at the end.)
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 * Finally, configure the settings for the **copy data task**
 * Under **Fault tolerance**, choose the required level
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
 * Once you have completed the final step, the Data Factory can be deployed
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>

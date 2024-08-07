@@ -26,7 +26,7 @@ Please follow these steps to install Unified Contacts Free in your tenant:
 6.  After accepting the user consent, Unified Contacts will inform you that some additional steps are required.\
 
 
-    <figure><img src="../../.gitbook/assets/Additional-steps-required-Popup (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/Additional-steps-required-Popup.png" alt=""><figcaption></figcaption></figure>
 7.  Click "Grant" to invoke the admin consent. Unified Contacts requires the following admin-granted delegated permissions:
 
     * Maintain access to data you have given access to

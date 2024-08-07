@@ -17,7 +17,7 @@ Unified Contacts extends Microsoft Teams by delivering a unified search experien
 * providing a powerful [**Database**](advanced-configuration/uc-database/) and [**REST API**](advanced-configuration/uc-database/crud-operations-with-rest-api.md) facilitating a simplistic and automatic ingestion of contact data
 * automatically searching [**SharePoint Online**](advanced-configuration/sharepoint-online-lists.md) for contact-type lists
 
-<figure><img src=".gitbook/assets/image (17) (1).png" alt=""><figcaption><p>Unified Contacts</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (77).png" alt=""><figcaption><p>Unified Contacts</p></figcaption></figure>
 
 Unified Contacts matches the following contact properties against your search query and presents the results in a familiar, comprehensive and coherent format across different contact sources:
 

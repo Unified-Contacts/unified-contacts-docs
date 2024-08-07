@@ -9,5 +9,5 @@ To activate Unified Contacts Pro you have to add a license key to the Unified Co
 5.  Under **Value**, enter your license key.\
 
 
-    <figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
 6. Then, **Save** the settings and under **Overview**, restart your **App Service**.

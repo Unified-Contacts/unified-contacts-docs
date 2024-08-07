@@ -9,7 +9,7 @@ To remove the Unified Contacts Teams App (front end)
 * Open the [**Teams Admin Center**](https://admin.teams.microsoft.com/) and navigate to "Teams apps" --> "Manage apps" and locate the Unified Contacts app.
 * Open the app, click on the three dots subsequently to "Actions" --> "Delete"
 
-<figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
 
 ## Step 2: Uninstall the Unified Contacts Pro Backend
 

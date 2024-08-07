@@ -65,17 +65,17 @@ In case you would like to test Unified Contacts, please [get in contact with us]
 
 To get started with your Unified Contacts Pro subscription,
 
-* Locate Unified Contacts Pro on the **Marketplace** in your [**Azure Portal**](https://portal.azure.com/#create/glueckkanja-gabag.radiusaas-transactable-prod/preview)&#x20;
+* Locate Unified Contacts Pro on the **Marketplace** in your [**Azure Portal**](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/glueckkanja-gabag.unified-contacts-transactable-prod)&#x20;
 * Select the Unified Contacts Pro **Plan** based on your preferred renewal interval and click "Subscribe"
 
-<figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (93).png" alt=""><figcaption></figcaption></figure>
 
 * Create or select the **Resource group** you would like to deploy the subscription to
 * Assign a **Name** to later identify your Unified Contacts subscription
 * We recommend to keep **Recurring billing** on so that you do not have to worry about a manual renewal of your subscription.
 * Click "Review + subscribe" and in the next blade "Subscribe" to deploy the subscription to your Azure SaaS portal.
 
-<figure><img src="../../.gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 The random order of **Base Fees** und **Additional Users** under the **Price** information is attributed to limitations of the Azure Marketplace. Later during the the enrolment process, we will provide you with transparent information on the expected licensing costs.
@@ -83,7 +83,7 @@ The random order of **Base Fees** und **Additional Users** under the **Price** i
 
 * Once the deployment is complete, please navigate to our platform by clicking "Configure account now"
 
-<figure><img src="../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
 
 * After authenticating on our platform using your Microsoft credentials, you will be prompted for additional information, such as the desired **total user amount** and a **technical admin contact**.
 

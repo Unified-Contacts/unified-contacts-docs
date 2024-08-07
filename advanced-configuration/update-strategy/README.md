@@ -33,7 +33,7 @@ To update Unified Contacts:
 7. The PowerShell script will install the latest version of the UnifiedContactsPS Module and subsequently the latest version of the selected [release channel](release-channels.md) of the Unified Contacts app.
 8. **After the script is finished, return to the Unified Contacts App Service and go to the "Teams Manifest" tab.**
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 9. Click "Publish" to upload a new version of the Teams Manifest
 

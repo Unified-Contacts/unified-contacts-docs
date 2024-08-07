@@ -2,10 +2,11 @@
 description: Documentation for the usage of the Database contact source
 ---
 
-# 🆕 UC Database
+# UC Database
 
 {% hint style="info" %}
-Applicable to version 1.5.0 and above Unified Contacts Pro only
+Applicable to version 1.5.0 and above \
+Unified Contacts Pro & Community Edition only
 {% endhint %}
 
 With Unified Contacts 1.5.0 and later you can fill the internal database (UC Database) with contacts from anywhere which can be searched by each of your users.
