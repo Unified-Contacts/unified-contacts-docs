@@ -1,7 +1,7 @@
 ---
 description: >-
-  Unified Contacts - Finding ALL your Contacts in Teams - Azure Active
-  Directory, Exchange Online and SharePoint Online
+  Unified Contacts - Finding ALL your Contacts in Teams - EntraId (fka. Azure
+  Active Directory), Exchange Online, SharePoint Online and 3rd party database
 ---
 
 # Welcome
@@ -17,7 +17,7 @@ Unified Contacts extends Microsoft Teams by delivering a unified search experien
 * providing a powerful [**Database**](advanced-configuration/uc-database/) and [**REST API**](advanced-configuration/uc-database/crud-operations-with-rest-api.md) facilitating a simplistic and automatic ingestion of contact data
 * automatically searching [**SharePoint Online**](advanced-configuration/sharepoint-online-lists.md) for contact-type lists
 
-<figure><img src=".gitbook/assets/image (77).png" alt=""><figcaption><p>Unified Contacts</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (77).png" alt=""><figcaption><p>Unified Contacts</p></figcaption></figure>
 
 Unified Contacts matches the following contact properties against your search query and presents the results in a familiar, comprehensive and coherent format across different contact sources:
 
@@ -27,7 +27,7 @@ Unified Contacts matches the following contact properties against your search qu
 * Department
 * Organization name&#x20;
 
-Unified Contacts comes in two editions, where **Unified Contacts Free** comes as a SaaS solution with limited functionality and where the backend is centrally hosted in our Azure tenant. For enterprise-scenarios, we offer **Unified Contacts Pro** with additional functionality and configuration options along with a backend that gets deployed into **your Azure tenant**. For further details, please refer to the following section:
+Unified Contacts comes in three editions, where **Unified Contacts Free** comes as a SaaS solution with limited functionality and where the backend is centrally hosted in our Azure tenant. For enterprise-scenarios, we offer **Unified Contacts Pro/Community Edition** with additional functionality and configuration options along with a backend that gets deployed into **your Azure tenant**. For further details, please refer to the following section:
 
 {% content-ref url="editions.md" %}
 [editions.md](editions.md)
@@ -49,16 +49,14 @@ Our guides and articles will cover the deployment of Unified Contacts in your en
 
 ## Unified Contacts Guides
 
-We offer two guides to deploy the Unified Contacts environment. Please follow below link for guidance on which guide is best suited for your scenario and deployment requirements:
+We offer three guides to deploy the Unified Contacts environment. Please follow below link for guidance on which guide is best suited for your scenario and deployment requirements:
 
 {% content-ref url="deployment/getting-started/" %}
 [getting-started](deployment/getting-started/)
 {% endcontent-ref %}
 
-## Change Log
+## Changelog
 
-News from our development and our roadmap can be found under the **Change Log**.
+News from our development and our roadmap can be found under the **Changelog**.
 
-{% content-ref url="others/changelog.md" %}
-[changelog.md](others/changelog.md)
-{% endcontent-ref %}
+{% embed url="https://feedback.unified-contacts.com" %}
