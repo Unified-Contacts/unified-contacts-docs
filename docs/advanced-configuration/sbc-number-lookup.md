@@ -2,18 +2,16 @@
 description: Documentation for the usage of the SBC Reverse number lookup
 ---
 
-# 🆕 SBC Number Lookup
+# SBC Number Lookup
 
-{% hint style="warning" %}
-This feature is currently in preview
-{% endhint %}
+
 
 {% hint style="info" %}
-Applicable to version 5.3.4 and above\
+Applicable to version 5.4.0 and above\
 Unified Contacts Pro only
 {% endhint %}
 
-With Unified Contacts 5.3.4 and later you can perform a reverse number lookup against contacts in the Unified Contacts Database and inject the DisplayName of the caller into the SIP header.
+With Unified Contacts 5.4.0 and later you can perform a reverse number lookup against contacts in the Unified Contacts Database and inject the DisplayName of the caller into the SIP header.
 
 ## Setup
 
@@ -29,7 +27,7 @@ If you have updated recently and can't see the  **SBC Lookup** Category you migh
 
 Per default the SBC Lookup Endpoint is **disabled**. To enable it open the Unified Contacts Admin portal at the root page. Navigate to **Settings** **> SBC Lookup** and enable the **SBC Lookup Endpoint**.
 
-<figure><img src="../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
 
 #### Configure IP Authentication
 
@@ -41,11 +39,11 @@ Without it you expose the lookup endpoint publicly into the internet, secured on
 
 To allow access to the Endpoint you can specify an allow-list of IP addresses that are allowed to access the Endpoint. You can add any valid IPv4 or IPv6 address. Add it by entering the address into the input field and click on the **+** Button.
 
-<figure><img src="../.gitbook/assets/image (109).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (109).png" alt=""><figcaption></figcaption></figure>
 
 To delete an IP address from the allow-list click on the trash bin symbol.
 
-<figure><img src="../.gitbook/assets/image (107).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (107).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 The endpoint validates the last IP address in a forwarding chain. If you have the Unified Contacts AppService set up behind a reverse proxy, load balancer or other proxy service(s) the request will be treated as if it was send from the outbound IP address of the last proxy in the chain. In such cases make sure to implement your own firewall in front of the proxy service and add the IP address(es) of your proxy service(s) to the SBC Lookup endpoint allow-list.
@@ -55,7 +53,7 @@ The endpoint validates the last IP address in a forwarding chain. If you have th
 
 As most SBCs don't support modern Authentication the SBC Lookup endpoint uses Basic Auth for Authenticating requests. To use the Endpoint you have to set a username and password. Those are the credentials you will also have to enter in your SBC.
 
-<figure><img src="../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Usernames have to have at least 3 chars. Only alphanumerical chars are allowed
@@ -78,18 +76,18 @@ Usage Type is General and Path must be /api/v1/sbclookup/phone.\
 You need to specify a TLS Context as the connection will be secured, we recommend to use the same TLS Context you use for your connection to MS Teams.\
 Username and password are those you defined earlier in the section above in the Unified Contacts Pro Portal.&#x20;
 
-<figure><img src="../.gitbook/assets/RemoteWebServices.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/RemoteWebServices.png" alt=""><figcaption></figcaption></figure>
 
 Next step is to define the HTTP Remote Host on the same screen, just click the blue link below password.
 
 The value for Address you can copy from your Unified Contacts Pro Portal website. Here we need to enter the App Service URL, the Port should be changed to 443 and Transport Type to HTTPS.\
 As Interface select the one you want to use and from which you specified the public IP address in Unified Contacts Pro Portal.
 
-<figure><img src="../.gitbook/assets/HttpRemoteHosts.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/HttpRemoteHosts.png" alt=""><figcaption></figcaption></figure>
 
 To get information of the Web Services you might want to enable logging on the SBC. This can be done in Setup -> IP Network -> Web Services -> Web Services Settings. Just modify the Debug Level to Detailed
 
-<figure><img src="../.gitbook/assets/WebServicesSettings.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/WebServicesSettings.png" alt=""><figcaption></figcaption></figure>
 
 Finally, you need a Call Setup Rule which queries the database on an incoming call.\
 Just go to Setup -> Signaling & Media -> SIP Definitions -> Call Setup Rules and create a new one. \
@@ -98,7 +96,7 @@ Request Key is the calling number, so enter Param.Call.Src.User. \
 Next a condition is required to make sure that messages are manipulated only when a match is found. This should be HTTP.Response.Status == '200'.\
 As an action we're going to modify Param.Call.Src.Name with the body of the 200 OK message received. So Action Value is HTTP.Response.Body
 
-<figure><img src="../.gitbook/assets/CallSetupRule.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CallSetupRule.png" alt=""><figcaption></figcaption></figure>
 
 This CSR must be added to any IP Group on which you want to run the Reverse Name Lookup. Likely on every PSTN SIP Trunk IP Group.
 

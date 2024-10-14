@@ -21,7 +21,7 @@
 * [Custom Domain](advanced-configuration/custom-domain.md)
 * [License Key](advanced-configuration/license-key.md)
 * [Logs & Telemetry](advanced-configuration/logs-and-telemetry.md)
-* [🆕 SBC Number Lookup](advanced-configuration/sbc-number-lookup.md)
+* [SBC Number Lookup](advanced-configuration/sbc-number-lookup.md)
 * [SharePoint Online Lists](advanced-configuration/sharepoint-online-lists.md)
 * [UC Database](advanced-configuration/uc-database/README.md)
   * [Sync Data with Azure Data Factory](advanced-configuration/uc-database/sync-data-with-azure-data-factory.md)
