@@ -2,7 +2,7 @@
 description: Frequently asked questions
 ---
 
-# FAQs
+# FAQ
 
 ## What is Unified Contacts?
 
@@ -50,7 +50,7 @@ With click-to-dial you can call any phone number stored in your personal contact
 
 In case you see the below error message after attempting to initiate a PSTN call from Unified Contacts, your user account is probably not enabled for the Microsoft Teams Phone System. Please contact your administrator for details.
 
-![Error Message: Sorry, we can't complete the call.](<../.gitbook/assets/Picture 1.png>)
+![Error Message: Sorry, we can't complete the call.](<../../.gitbook/assets/Picture 1.png>)
 
 ## Does Unified Contacts work on mobile devices?
 
