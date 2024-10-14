@@ -19,7 +19,7 @@ To update Unified Contacts:
 * In the upcoming pop-up, confirm your choice to start the update.
 *   It will take a few moments until the latest binaries are pulled from our server and deployed into the App Service. Once this is completed, a pop-up is displayed asking you to restart the App Service. Click on the link, navigate to the Unified Contacts App Service and click "Stop" und subsequently "Start."
 
-    <figure><img src="../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
 * Navigate back to the backend portal by clicking "Browse".
 
 {% hint style="warning" %}
@@ -27,7 +27,7 @@ It may take up to a few minutes until it can be reached again after the stop-sta
 {% endhint %}
 
 * When the backend is up again, a pop-up is displayed asking you to update the manifest (this ensures that the front-end (Unified Contacts Teams App) is compatible with the latest backend. Click "Go to Teams Manifest tab".\
-  ![](<../../.gitbook/assets/image (59).png>)
+  ![](<../../../.gitbook/assets/image (59).png>)
 * In the "Team Manifest" tab review your manifest settings, click "Save" and "Update". The news Teams app will be published to your Team Admin Center. For the end user the app will update automatically.
 
 {% hint style="warning" %}
@@ -35,6 +35,6 @@ Due to Microsoft's caching policies, it may take up to **48 hours**, until the l
 {% endhint %}
 
 * You can review if the latest version of the manifest was populated by checking the version number in the "About" tab:\
-  ![](<../../.gitbook/assets/image (87).png>)
+  ![](<../../../.gitbook/assets/image (87).png>)
 
 ##

@@ -68,30 +68,30 @@ To properly link all components of Unified Contacts Pro, several permissions nee
 2.  Copy the content of the black box to your clipboard and paste it into a text editor. \
 
 
-    <figure><img src="../../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure>
 3. Now you need to replace the `AppServiceAzureUrl` with the correct URL from your Unified Contacts **App Service**. Therefore
    1. Navigate to the Unified Contacts **App Service** "Overview" blade.&#x20;
    2.  Copy the URL from your browser and replace the `AppServiceAzureUrl` argument value in the text editor with this URL.\
 
 
-       <figure><img src="../../.gitbook/assets/Screenshot_2023-01-30_at_15_55_47 (1).png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../../../.gitbook/assets/Screenshot_2023-01-30_at_15_55_47 (1).png" alt=""><figcaption></figcaption></figure>
 4. Copy all commands from the text editor, open the **Azure Cloud Shell** (Power Shell) on **Azure Portal** and paste the commands.
 5.  During the script execution, you will be prompted for the SQL server administration account. Please provide the credentials you specified during the deployment in the ARM template.\
 
 
-    <figure><img src="../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
 6. If you have previously configured a **Custom domain** on the Unified Contacts **App Service**, the script will prompt you for the correct **App Service URL**. Please select the custom domain.
 7.  Towards the end of the script, you will be asked to grant the permissions (**read-only**) required for the Unified Contacts front- and backend to function properly. Please consent to those permissions by
 
     1. Either copying **both** links to your browser and acknowledging the grants manually with a suitable admin account,
     2. **Or** by selecting to the **Automatic Permission Grant**. In this case, please complete the **Device Login** by opening the website [https://microsoft.com/devicelogin](https://microsoft.com/devicelogin), pasting the one-time code displayed in the Azure Cloud Shell, and following all steps.
 
-    <figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
 8. Once the script has completed successfully, **restart** the Unified Contacts **App Service**.
 9.  To verify the successful deployment, navigate to the Unified Contacts **App Service**, select "Overview" and click "Browse". The health indicators on the left side should all indicate "Healthy".\
 
 
-    <figure><img src="../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 It may initially take up to **5 minutes** until the Unified Contacts backend portal is loaded.
@@ -119,12 +119,12 @@ This is a **mandatory** step.
 2.  In case you have never deployed Unified Contacts Pro before, the website will inform you that you first need to upload the Unified Contacts Manifest. This will make the Unified Contacts Pro Teams App available in your organization's AppStore.\
 
 
-    <figure><img src="../../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
 3. Acknowledge the dialogue, navigate to the "Teams Manifest" tab, adapt the manifest to your preferences, click "Save" and then "Upload". If you have configured a **custom domain**, remeber to **override** the "Api Domain" in the manifest. **Uploading the manifest** **might take a few moments**. Please note: You can even change the display name of the app that will appear under the icon in the end-users' Teams client.
 4.  The Unified Contacts Pro Teams app is now available in [**Teams Admin Center**](https://admin.teams.microsoft.com/) and you may distribute it as per your requirements.\
 
 
-    <figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
 
 ## Step 6: Import Contacts from 3rd Party Sources and CRM Systems
 

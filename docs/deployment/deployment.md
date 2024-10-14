@@ -12,7 +12,7 @@ This will invoke the ARM-deployment-template that is pre-populated with default 
 In case you have resource naming conventions, you may override the default resource names to match your requirements.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
 
 * **Subscription:** Select your subscription, where you have permissions to create app services, app service plans, key vaults, storage accounts, SQL databases and SQL servers
 * **Resource group:** Select an existing resource group or create a new one. The Unified Contacts resources will be deployed to this resource group

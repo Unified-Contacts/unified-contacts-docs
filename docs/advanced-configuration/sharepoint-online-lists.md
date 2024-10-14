@@ -20,7 +20,7 @@ This article describes how to create a new SharePoint Online list and assign the
 *   Open the classic view by clicking "classic experience"\
 
 
-    <figure><img src="../.gitbook/assets/image (70).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (70).png" alt=""><figcaption></figcaption></figure>
 * Select "Custom List"
 * Define a name for the list and create it
 
@@ -34,13 +34,13 @@ Therefore, add the **Contact** content type and remove the default content type 
 *   Open list settings by clicking "Settings" --> "List settings"\
 
 
-    <figure><img src="../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
 * Open "Advanced settings"
 * Enable "Allow management of content types" and save the changes by clicking "OK" at bottom of the page.
 * SharePoint opens the settings page and you will see the section "Content Types"
 *   Click "Add from existing site content types"\
 
 
-    <figure><img src="../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
 * Add "Contact" and save the changes by clicking "OK"
 * Click on "Default content type" and delete it

@@ -22,7 +22,7 @@ If you want to create your own custom domain for your Unified Contacts **App Ser
   * Subdomain: Set your preferred subdomain
 * Click "Add"
 
-<figure><img src="../.gitbook/assets/image (90).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (90).png" alt=""><figcaption></figcaption></figure>
 
 By clicking on add, the custom domain and the SSL Managed Certificate will be created and bound automatically.
 
@@ -40,7 +40,7 @@ By clicking on add, the custom domain and the SSL Managed Certificate will be cr
 * Register the displayed CNAME or TXT record mapping with your DNS provider. Once this is done, click "Validate".
 * Click "Add" when the validation is successful.
 
-<figure><img src="../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 In both cases it can take a few moments until the SSL binding with the **App Service Managed Certificate** is complete.
@@ -58,21 +58,21 @@ The **App Registrations** that were created during the [post-deployment](../depl
 *   Locate the **two** **App registrations** that were created during the deployment of Unified Contacts. You assigned the name in the [first step of the deployment](../deployment/getting-started/unified-contacts-pro.md#step-1-deploy-unified-contacts-pro-base-services).\
 
 
-    <figure><img src="../.gitbook/assets/image (92).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (92).png" alt=""><figcaption></figcaption></figure>
 * First, click on the "admin" **App registration** and navigate to "Manage" --> "Authentication".
   *   Under the "Redirect URLs", add your custom domain and click "Save"\
 
 
-      <figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+      <figure><img src="../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
 * Next, go the the "teams" **App registration** and navigate to "Manage" --> "Authentication".
   *   Under the "Redirect URLs", add your custom domain and click "Save"\
 
 
-      <figure><img src="../.gitbook/assets/image (75).png" alt=""><figcaption></figcaption></figure>
+      <figure><img src="../../.gitbook/assets/image (75).png" alt=""><figcaption></figcaption></figure>
   *   Next, navigate to "Manage" --> "Expose API" and update the "Application ID URI" with your custom domain.\
 
 
-      <figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+      <figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
 
 The configuration of the custom domain is complete.
 

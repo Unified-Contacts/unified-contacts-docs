@@ -13,7 +13,7 @@
 * The related items should appear on your Microsoft Azure invoice (Pay-As-You-Go) the month after we have reported your fees to Microsoft.
 * In the PDF invoice you will receive from Microsoft, all Unified Contacts fees are lumped into an item called "SaaS". The related Publisher is "glueckkanja-gab".
 
-<figure><img src="../../.gitbook/assets/spaces_-LoGejQeUQcw7lqnQ3WX_uploads_JiMbS16YXLCWnX7qzQXI_Screenshot 2022-02-18 at 12.webp" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/spaces_-LoGejQeUQcw7lqnQ3WX_uploads_JiMbS16YXLCWnX7qzQXI_Screenshot 2022-02-18 at 12.webp" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 For a more detailed cost breakdown of your base and additional user fees, please refer to the invoice in your Azure portal.
@@ -68,14 +68,14 @@ To get started with your Unified Contacts Pro subscription,
 * Locate Unified Contacts Pro on the **Marketplace** in your [**Azure Portal**](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/glueckkanja-gabag.unified-contacts-transactable-prod)&#x20;
 * Select the Unified Contacts Pro **Plan** based on your preferred renewal interval and click "Subscribe"
 
-<figure><img src="../../.gitbook/assets/image (93).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (93).png" alt=""><figcaption></figcaption></figure>
 
 * Create or select the **Resource group** you would like to deploy the subscription to
 * Assign a **Name** to later identify your Unified Contacts subscription
 * We recommend to keep **Recurring billing** on so that you do not have to worry about a manual renewal of your subscription.
 * Click "Review + subscribe" and in the next blade "Subscribe" to deploy the subscription to your Azure SaaS portal.
 
-<figure><img src="../../.gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 The random order of **Base Fees** und **Additional Users** under the **Price** information is attributed to limitations of the Azure Marketplace. Later during the the enrolment process, we will provide you with transparent information on the expected licensing costs.
@@ -83,11 +83,11 @@ The random order of **Base Fees** und **Additional Users** under the **Price** i
 
 * Once the deployment is complete, please navigate to our platform by clicking "Configure account now"
 
-<figure><img src="../../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
 
 * After authenticating on our platform using your Microsoft credentials, you will be prompted for additional information, such as the desired **total user amount** and a **technical admin contact**.
 
-<figure><img src="../../.gitbook/assets/Screenshot_2023-01-12_at_18_08_38.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot_2023-01-12_at_18_08_38.png" alt=""><figcaption></figcaption></figure>
 
 * Based on the amount of users provided on our platform, we will charge the relevant base fee for your user segment as well as additional users, in case you require more than the included amount in your base fee.
 * The platform will show you the licensing fees you have to expect under **Cost Projection**.

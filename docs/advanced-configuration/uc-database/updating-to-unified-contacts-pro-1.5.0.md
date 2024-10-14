@@ -11,15 +11,15 @@ After following the steps below you will be able to follow the Authentication st
 1.  Open **Azure Portal** and search for "App registrations" or click [here](https://portal.azure.com/#view/Microsoft\_AAD\_RegisteredApps/ApplicationsListBlade).\
 
 
-    <figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 2.  Search for the **Admin App registration** of Unified contacts. If you haven't configured a custom naming during installation the App registration is named"'admin-app-reg-uc-<13 digit random numbers and letters>".\
 
 
-    <figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 3.  Click on **Expose an API** and select **Add** on the **Application ID URI**. Then click "Save".\
     _Note: If you already have an Application ID URI, just skip this step._
 
-    <figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 4. Click on "App roles" then on "Create app rol"' and fill out the side pannel as follows and subsequently click "Apply":\
 
    * **Display name:** Contacts.Database.ReadWrite.All
@@ -28,6 +28,6 @@ After following the steps below you will be able to follow the Authentication st
    * **Description:** Allows to read and write (create, update, delete) database contacts.
    *   **Do you want to enable this app role?**: Yes
 
-       <figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
 After you have completed those steps you can continue with the [CRUD operations with REST API](crud-operations-with-rest-api.md#authentication) documentation.

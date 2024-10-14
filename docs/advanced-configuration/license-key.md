@@ -6,8 +6,9 @@ To activate Unified Contacts Pro you have to add a license key to the Unified Co
 2. Identify the Unified Contacts Pro **AppService**.
 3. Next, under **Settings** click **Configuration**.
 4. Select **AppSettings\_\_LicenseKey**.
-5.  Under **Value**, enter your license key.\
+5. Under **Value**, enter your license key.
+6. Press **OK** to save your changes.
 
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-    <figure><img src="../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
-6. Then, **Save** the settings and under **Overview**, restart your **App Service**.
+1. Then, **Save** the settings and under **Overview**, restart your **App Service**.
