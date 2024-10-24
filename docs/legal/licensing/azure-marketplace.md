@@ -1,5 +1,13 @@
 # Azure Marketplace
 
+## Prerequisites <a href="#prerequisites" id="prerequisites"></a>
+
+In order to purchase solutions from independent software vendors (ISV) such as Unified Contacts, you must fulfil the following requirements:
+
+1. You have an active Azure subscription.
+2. The account you want to purchase our solution with must have the **Owner** or **Contributor** role assigned on the Azure subscription you are going to pay with.
+3. The billing account linked to your Azure subscription is properly set up. Depending on your billing account type (Microsoft Customer Agreement or Enterprise Agreement), you might need to enable marketplace purchases in the Azure portal first.
+
 ## Pricing Model
 
 * Unified Contacts Pro is offered as a **monthly or** **annual subscription plan** with different [User Segments](azure-marketplace.md#user-segments). The correct **user segment** is automatically selected by our platform based on the amount of desired users.
@@ -10,10 +18,12 @@
 
 * During the first subscription interval, your subscription fees are not immediately due after completing the subscription enrolment. Instead we will start billing once your cancellation grace period has expired.&#x20;
 * Upon every renewal date, you will be billed immediately.
+* You will always be billed for the entire subscription cycle in advance.
 * The related items should appear on your Microsoft Azure invoice (Pay-As-You-Go) the month after we have reported your fees to Microsoft.
-* In the PDF invoice you will receive from Microsoft, all Unified Contacts fees are lumped into an item called "SaaS". The related Publisher is "glueckkanja-gab".
+*   In the PDF invoice you will receive from Microsoft, all Unified Contacts fees are lumped into an item called "SaaS". The related Publisher is "glueckkanja".\
 
-<figure><img src="../../../.gitbook/assets/spaces_-LoGejQeUQcw7lqnQ3WX_uploads_JiMbS16YXLCWnX7qzQXI_Screenshot 2022-02-18 at 12.webp" alt=""><figcaption></figcaption></figure>
+
+    <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 For a more detailed cost breakdown of your base and additional user fees, please refer to the invoice in your Azure portal.
@@ -21,7 +31,7 @@ For a more detailed cost breakdown of your base and additional user fees, please
 
 ## Plan Overview
 
-Subscriptions for Unified Contacts are available based on a monthly or annual renewal interval.
+Subscriptions for Unified Contacts are available based on a **monthly** or **annual** renewal interval.
 
 {% hint style="info" %}
 The annual plan is discounted by 10% in comparison to the monthly plan (calculated over the period of 12 months).
@@ -40,40 +50,64 @@ The following user segments are available for both, monthly and annual plans.&#x
 
 For prices in Euro (EUR), please check out our [website](https://www.unified-contacts.com/pricing). For prices in _your_ currency, please directly refer to the **Marketplace** in the [Azure Portal](https://portal.azure.com/).
 
-## User Up- and Downgrades
+## Subscription Management
 
-### Upgrades
+### User Upgrades
 
 * If you would like to upgrade your user count, you can do that any time during the current subscription cycle by navigating to your **Unified Contacts subscription** in the [Azure SaaS portal](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.SaaS%2Fresources) and by clicking "Open SaaS Account on publisher's site" (see screenshot below). This will re-direct you to our platform where the amount of users can be upgraded.
-
-
-
-* After confirming your choice and once we have updated the license in our backend, you will receive a confirmation email from us.
-* For the current cycle, we will bill the additional users for remaining days only.
 * Our platform will inform you about the new fees you to expect for a **complete** subscription cycle.
+* For the current cycle, we will bill the additional users for remaining days only.
+* After confirming your choice and once we have updated the license in our backend, you will receive a confirmation email from us.
 
-### Downgrades
+### User Downgrades
 
 * Downgrading the amount of users is currently not possible without cancelling the subscription.
-* If you want to perform a downgrade, please cancel your current subscription from the [Azure SaaS portal](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.SaaS%2Fresources) towards the end of the current cycle by clicking "Cancel subscription" (see screenshot below) and re-subscribe with the desired user amount once the cancellation becomes effective.
+* If you want to perform a downgrade, please [cancel](azure-marketplace.md#cancellation) your current subscription and re-subscribe with the desired amount of users once the cancellation becomes effective.
+
+### **Change Plan**
+
+{% hint style="info" %}
+This is currently **not supported**. Please [contact us](https://www.unified-contacts.com/help/) in case you have questions around this topic.
+{% endhint %}
+
+### **Recurring Billing**
+
+If you decide to disable **Recurring billing**, your subscription will not renew automatically. Instead, Microsoft will (irreversibly) cancel the subscription towards the end of the current subscription cycle. This means, the service will be terminated automatically on that date as well. While the subscription has not expired yet, you can opt to enable **Recurring billing** at any time.
+
+### Cancellation
+
+* If you would like to (irreversibly) cancel your subscription, navigate to your **Unified Contacts subscription** in the [Azure SaaS portal](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.SaaS%2Fresources) and click **Cancel subscription**.
+* If you cancel within the grace period, the service will be stopped immediately.
+* If you cancel after the grace period, the service will remain active until the end of the current subscription cycle.
 
 ## **Trials**
 
 In case you would like to test Unified Contacts, please [get in contact with us](https://www.unified-contacts.com/start-now/#try) or send us an email to [sales@unified-contacts.com](mailto:sales@unified-contacts.com).
 
-## How to purchase Unified Contacts Pro?
+## FAQs
 
-To get started with your Unified Contacts Pro subscription,
+### How to purchase Unified Contacts?
 
-* Locate Unified Contacts Pro on the **Marketplace** in your [**Azure Portal**](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/glueckkanja-gabag.unified-contacts-transactable-prod)&#x20;
-* Select the Unified Contacts Pro **Plan** based on your preferred renewal interval and click "Subscribe"
+{% hint style="info" %}
+Deploying a Unified Contacts subscription via Azure Marketplace **will not result** **in a re-deployment of Unified Contacts if you already have an active trial or production deployment**. Instead, we will assign the license obtained as part of this subscription to your existing deployments.
+
+For **new customers**, you will have to [deploy the infrastructure](../../deployment/getting-started/) for Unified Contacts separately.
+{% endhint %}
+
+To get started with your Unified Contacts subscription, follow below steps:
+
+* Locate [Unified Contacts](https://portal.azure.com/#view/Microsoft\_Azure\_Marketplace/GalleryItemDetailsBladeNopdl/id/glueckkanja-gabag.unified-contacts-transactable-prod) on the **Marketplace** in your **Azure Portal**. In case we have extended a **Private Offer** to you or your MSP/distribution has extended a **Multiparty Offer (MPO)** to you, navigate to **Marketplace** in your **Azure Portal** and then to **Private Offer Management** to locate the Private Offer.
+  * More details on Private Offers and MPOs can be found in Microsoft's documentation.
+    * [Private Offer](https://learn.microsoft.com/en-us/marketplace/private-offers-purchase)
+    * [Multiparty Offer](https://www.youtube.com/watch?v=TANUlgLuVqI)
+* Select the Unified Contacts **Plan** based on your preferred renewal interval and click **Subscribe**.
 
 <figure><img src="../../../.gitbook/assets/image (93).png" alt=""><figcaption></figcaption></figure>
 
-* Create or select the **Resource group** you would like to deploy the subscription to
-* Assign a **Name** to later identify your Unified Contacts subscription
-* We recommend to keep **Recurring billing** on so that you do not have to worry about a manual renewal of your subscription.
-* Click "Review + subscribe" and in the next blade "Subscribe" to deploy the subscription to your Azure SaaS portal.
+* Create or select the **Resource group** you would like to deploy the subscription to.
+* Assign a **Name** to later identify your Unified Contacts subscription.
+* We recommend to keep **Recurring billing** on so that you do not have to worry about a manual renewal of your subscription..
+* Click **Review + subscribe** and then **Subscribe** to deploy the **SaaS** resource to your **Resource group**.
 
 <figure><img src="../../../.gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure>
 
@@ -81,21 +115,22 @@ To get started with your Unified Contacts Pro subscription,
 The random order of **Base Fees** und **Additional Users** under the **Price** information is attributed to limitations of the Azure Marketplace. Later during the the enrolment process, we will provide you with transparent information on the expected licensing costs.
 {% endhint %}
 
-* Once the deployment is complete, please navigate to our platform by clicking "Configure account now"
+* Once the deployment is complete, please navigate to our platform to complete the checkout. Therefore click **Configure account now**.
 
 <figure><img src="../../../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
 
-* After authenticating on our platform using your Microsoft credentials, you will be prompted for additional information, such as the desired **total user amount** and a **technical admin contact**.
+* After authenticating on our platform using your Microsoft credentials, you will be prompted for additional information, such as the desired total **User** amount and a T**echnical contact**.
+
+{% hint style="info" %}
+The **Technical contact** must have a mailbox connected to it, so we are able to notify you in case there are relevant issues with Unified Contacts.
+{% endhint %}
 
 <figure><img src="../../../.gitbook/assets/Screenshot_2023-01-12_at_18_08_38.png" alt=""><figcaption></figcaption></figure>
 
-* Based on the amount of users provided on our platform, we will charge the relevant base fee for your user segment as well as additional users, in case you require more than the included amount in your base fee.
+* Based on the amount of users provided, we will charge the relevant base fee for your user segment as well as additional users, in case you require more than the included amount in your base fee. **The platform automatically selects the best price / tier**.
 * The platform will show you the licensing fees you have to expect under **Cost Projection**.
-
-{% hint style="warning" %}
-For CSP deals we cannot display the Cost Projection as CSP margins might be in place. Discounts for private offerings cannot be displayed either.
-{% endhint %}
-
+* If you are happy with it, please click **Review & Submit** for a final review and a fee summary.
+* Complete the checkout by confirming your choice and clicking **Submit**.
 * If you are happy with it, please complete the enrolment, which triggers us to generate a  license key for Unified Contacts. You will receive this key as part of our welcome email including all relevant information on the next steps regarding the deployment of Unified Contacts. This won't take any longer than one business day.
 
 {% hint style="info" %}
