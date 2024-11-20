@@ -64,13 +64,13 @@ This is a **mandatory** step.
 
 To properly link all components of Unified Contacts Pro, several permissions need to be assigned. Please follow these steps to establish the relevant connections:
 
-1. Navigate to the Unified Contacts backend website. For that, navigate to the Unified Contacts **App Service**, select "Overview" and click "Browse".
+1. Navigate to the Unified Contacts backend website. For that, navigate to the Unified Contacts **App Service**, select **Overview** and click **Browse**.
 2.  Copy the content of the black box to your clipboard and paste it into a text editor. \
 
 
     <figure><img src="../../../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure>
 3. Now you need to replace the `AppServiceAzureUrl` with the correct URL from your Unified Contacts **App Service**. Therefore
-   1. Navigate to the Unified Contacts **App Service** "Overview" blade.&#x20;
+   1. Navigate to the Unified Contacts **App Service Overview** blade.&#x20;
    2.  Copy the URL from your browser and replace the `AppServiceAzureUrl` argument value in the text editor with this URL.\
 
 
@@ -88,13 +88,13 @@ To properly link all components of Unified Contacts Pro, several permissions nee
 
     <figure><img src="../../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
 8. Once the script has completed successfully, **restart** the Unified Contacts **App Service**.
-9.  To verify the successful deployment, navigate to the Unified Contacts **App Service**, select "Overview" and click "Browse". The health indicators on the left side should all indicate "Healthy".\
+9.  To verify the successful deployment, navigate to the Unified Contacts **App Service**, select **Overview** and click **Browse**. The health indicators on the left side should all indicate **Healthy**.\
 
 
     <figure><img src="../../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-It may initially take up to **5 minutes** until the Unified Contacts backend portal is loaded.
+It may initially take up to 10 **minutes** until the Unified Contacts backend portal is loaded.
 {% endhint %}
 
 ### Step 4: Configure Access to the Unified Contacts Backend
@@ -115,12 +115,12 @@ By default, any account from the tenant can access the Unified Contacts Backend.
 This is a **mandatory** step.
 {% endhint %}
 
-1. Open the Unified Contacts backend website. Therefore, navigate to the Unified Contacts **App Service**, select "Overview" and click "Browse".&#x20;
+1. Open the Unified Contacts backend website. Therefore, navigate to the Unified Contacts **App Service**, select **Overview** and click **Browse**.&#x20;
 2.  In case you have never deployed Unified Contacts Pro before, the website will inform you that you first need to upload the Unified Contacts Manifest. This will make the Unified Contacts Pro Teams App available in your organization's AppStore.\
 
 
     <figure><img src="../../../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
-3. Acknowledge the dialogue, navigate to the "Teams Manifest" tab, adapt the manifest to your preferences, click "Save" and then "Upload". If you have configured a **custom domain**, remeber to **override** the "Api Domain" in the manifest. **Uploading the manifest** **might take a few moments**. Please note: You can even change the display name of the app that will appear under the icon in the end-users' Teams client.
+3. Acknowledge the dialogue, navigate to the **Teams Manifest** tab, adapt the manifest to your preferences, click **Save** and then **Upload**. If you have configured a **custom domain**, remeber to **override** the **Api Domain** in the manifest. **Uploading the manifest** **might take a few moments**. Please note: You can even change the display name of the app that will appear under the icon in the end-users' Teams client.
 4.  The Unified Contacts Pro Teams app is now available in [**Teams Admin Center**](https://admin.teams.microsoft.com/) and you may distribute it as per your requirements.\
 
 
