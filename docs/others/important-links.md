@@ -2,7 +2,7 @@
 
 ## Unified Contacts Pro on Azure Marketplace
 
-[https://azuremarketplace.microsoft.com/en-us/marketplace/apps/glueckkanja-gabag.unified-contacts-transactable-prod?tab=Overview](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/glueckkanja-gabag.unified-contacts-transactable-prod-preview?tab=Overview)
+[https://azuremarketplace.microsoft.com/en-us/marketplace/apps/glueckkanja-gabag.unified-contacts-transactable-prod?tab=Overview](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/glueckkanja-gabag.unified-contacts-transactable-prod?tab=Overview)
 
 ## Unified Contacts Free on AppSource
 
